@@ -1,0 +1,125 @@
+Determining if the function crc32c_value exists in the crc32c failed with the following output:
+Change Dir: /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-KEajS3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f218/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f218.dir/build.make CMakeFiles/cmTC_3f218.dir/build
+gmake[1]: Entering directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-KEajS3'
+Building C object CMakeFiles/cmTC_3f218.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=crc32c_value -std=c17 -o CMakeFiles/cmTC_3f218.dir/CheckFunctionExists.c.o -c /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-KEajS3/CheckFunctionExists.c
+Linking C executable cmTC_3f218
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f218.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=crc32c_value CMakeFiles/cmTC_3f218.dir/CheckFunctionExists.c.o -o cmTC_3f218  -lcrc32c 
+/usr/bin/ld: cannot find -lcrc32c: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3f218.dir/build.make:99: cmTC_3f218] Error 1
+gmake[1]: Leaving directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-KEajS3'
+gmake: *** [Makefile:127: cmTC_3f218/fast] Error 2
+
+
+
+Determining if the function snappy_compress exists in the snappy failed with the following output:
+Change Dir: /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-g05G84
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5086c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5086c.dir/build.make CMakeFiles/cmTC_5086c.dir/build
+gmake[1]: Entering directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-g05G84'
+Building C object CMakeFiles/cmTC_5086c.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=snappy_compress -std=c17 -o CMakeFiles/cmTC_5086c.dir/CheckFunctionExists.c.o -c /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-g05G84/CheckFunctionExists.c
+Linking C executable cmTC_5086c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5086c.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=snappy_compress CMakeFiles/cmTC_5086c.dir/CheckFunctionExists.c.o -o cmTC_5086c  -lsnappy 
+/usr/bin/ld: cannot find -lsnappy: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5086c.dir/build.make:99: cmTC_5086c] Error 1
+gmake[1]: Leaving directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-g05G84'
+gmake: *** [Makefile:127: cmTC_5086c/fast] Error 2
+
+
+
+Determining if the function zstd_compress exists in the zstd failed with the following output:
+Change Dir: /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-w0XztJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6f605/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f605.dir/build.make CMakeFiles/cmTC_6f605.dir/build
+gmake[1]: Entering directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-w0XztJ'
+Building C object CMakeFiles/cmTC_6f605.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=zstd_compress -std=c17 -o CMakeFiles/cmTC_6f605.dir/CheckFunctionExists.c.o -c /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-w0XztJ/CheckFunctionExists.c
+Linking C executable cmTC_6f605
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f605.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=zstd_compress CMakeFiles/cmTC_6f605.dir/CheckFunctionExists.c.o -o cmTC_6f605  -lzstd 
+/usr/bin/ld: cannot find -lzstd: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6f605.dir/build.make:99: cmTC_6f605] Error 1
+gmake[1]: Leaving directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-w0XztJ'
+gmake: *** [Makefile:127: cmTC_6f605/fast] Error 2
+
+
+
+Determining if the function malloc exists in the tcmalloc failed with the following output:
+Change Dir: /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-sgqK1g
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa01e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa01e.dir/build.make CMakeFiles/cmTC_fa01e.dir/build
+gmake[1]: Entering directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-sgqK1g'
+Building C object CMakeFiles/cmTC_fa01e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=malloc -std=c17 -o CMakeFiles/cmTC_fa01e.dir/CheckFunctionExists.c.o -c /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-sgqK1g/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-sgqK1g/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-sgqK1g/CheckFunctionExists.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_fa01e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa01e.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=malloc CMakeFiles/cmTC_fa01e.dir/CheckFunctionExists.c.o -o cmTC_fa01e  -ltcmalloc 
+/usr/bin/ld: cannot find -ltcmalloc: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_fa01e.dir/build.make:99: cmTC_fa01e] Error 1
+gmake[1]: Leaving directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-sgqK1g'
+gmake: *** [Makefile:127: cmTC_fa01e/fast] Error 2
+
+
+
+Determining if the F_FULLFSYNC exist failed with the following output:
+Change Dir: /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Qc2rVY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e85a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e85a.dir/build.make CMakeFiles/cmTC_0e85a.dir/build
+gmake[1]: Entering directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Qc2rVY'
+Building CXX object CMakeFiles/cmTC_0e85a.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++   -std=c++17 -o CMakeFiles/cmTC_0e85a.dir/CheckSymbolExists.cxx.o -c /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Qc2rVY/CheckSymbolExists.cxx
+/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Qc2rVY/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Qc2rVY/CheckSymbolExists.cxx:8:19: error: ‘F_FULLFSYNC’ was not declared in this scope
+    8 |   return ((int*)(&F_FULLFSYNC))[argc];
+      |                   ^~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_0e85a.dir/build.make:78: CMakeFiles/cmTC_0e85a.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Qc2rVY'
+gmake: *** [Makefile:127: cmTC_0e85a/fast] Error 2
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_FULLFSYNC
+  return ((int*)(&F_FULLFSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test -ggdb failed with the following output:
+Change Dir: /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Mxrpxr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd477/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd477.dir/build.make CMakeFiles/cmTC_cd477.dir/build
+gmake[1]: Entering directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Mxrpxr'
+Building CXX object CMakeFiles/cmTC_cd477.dir/src.cxx.o
+/usr/bin/g++   -D-ggdb -Wthread-safety -std=c++17 -o CMakeFiles/cmTC_cd477.dir/src.cxx.o -c /root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Mxrpxr/src.cxx
+g++: error: unrecognized command-line option '-Wthread-safety'
+gmake[1]: *** [CMakeFiles/cmTC_cd477.dir/build.make:78: CMakeFiles/cmTC_cd477.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/root/my_leveldb/build/CMakeFiles/CMakeScratch/TryCompile-Mxrpxr'
+gmake: *** [Makefile:127: cmTC_cd477/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+

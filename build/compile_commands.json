@@ -1,0 +1,127 @@
+[
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/dbformat.cc.o -c /root/my_leveldb/db/dbformat.cc",
+  "file": "/root/my_leveldb/db/dbformat.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/log_reader.cc.o -c /root/my_leveldb/db/log_reader.cc",
+  "file": "/root/my_leveldb/db/log_reader.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/log_writer.cc.o -c /root/my_leveldb/db/log_writer.cc",
+  "file": "/root/my_leveldb/db/log_writer.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/memtable.cc.o -c /root/my_leveldb/db/memtable.cc",
+  "file": "/root/my_leveldb/db/memtable.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/arena.cc.o -c /root/my_leveldb/util/arena.cc",
+  "file": "/root/my_leveldb/util/arena.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/cache.cc.o -c /root/my_leveldb/util/cache.cc",
+  "file": "/root/my_leveldb/util/cache.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/coding.cc.o -c /root/my_leveldb/util/coding.cc",
+  "file": "/root/my_leveldb/util/coding.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/crc32c.cc.o -c /root/my_leveldb/util/crc32c.cc",
+  "file": "/root/my_leveldb/util/crc32c.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/env.cc.o -c /root/my_leveldb/util/env.cc",
+  "file": "/root/my_leveldb/util/env.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o -c /root/my_leveldb/util/filter_policy.cc",
+  "file": "/root/my_leveldb/util/filter_policy.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/hash.cc.o -c /root/my_leveldb/util/hash.cc",
+  "file": "/root/my_leveldb/util/hash.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/logging.cc.o -c /root/my_leveldb/util/logging.cc",
+  "file": "/root/my_leveldb/util/logging.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o -c /root/my_leveldb/db/skiplist_test.cc",
+  "file": "/root/my_leveldb/db/skiplist_test.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o -c /root/my_leveldb/util/no_destructor_test.cc",
+  "file": "/root/my_leveldb/util/no_destructor_test.cc"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/googletest/googlemock/include -I/root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O0 -ggdb -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /root/my_leveldb/third_party/googletest/googlemock/src/gmock-all.cc",
+  "file": "/root/my_leveldb/third_party/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O0 -ggdb -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /root/my_leveldb/third_party/googletest/googlemock/src/gmock_main.cc",
+  "file": "/root/my_leveldb/third_party/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/googletest/googletest",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/googletest/googletest/include -I/root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O0 -ggdb -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /root/my_leveldb/third_party/googletest/googletest/src/gtest-all.cc",
+  "file": "/root/my_leveldb/third_party/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/googletest/googletest",
+  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O0 -ggdb -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /root/my_leveldb/third_party/googletest/googletest/src/gtest_main.cc",
+  "file": "/root/my_leveldb/third_party/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/spdlog/include -O0 -ggdb -fPIC -O0 -ggdb -std=c++17 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /root/my_leveldb/third_party/spdlog/src/spdlog.cpp",
+  "file": "/root/my_leveldb/third_party/spdlog/src/spdlog.cpp"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/spdlog/include -O0 -ggdb -fPIC -O0 -ggdb -std=c++17 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /root/my_leveldb/third_party/spdlog/src/stdout_sinks.cpp",
+  "file": "/root/my_leveldb/third_party/spdlog/src/stdout_sinks.cpp"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/spdlog/include -O0 -ggdb -fPIC -O0 -ggdb -std=c++17 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /root/my_leveldb/third_party/spdlog/src/color_sinks.cpp",
+  "file": "/root/my_leveldb/third_party/spdlog/src/color_sinks.cpp"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/spdlog/include -O0 -ggdb -fPIC -O0 -ggdb -std=c++17 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /root/my_leveldb/third_party/spdlog/src/file_sinks.cpp",
+  "file": "/root/my_leveldb/third_party/spdlog/src/file_sinks.cpp"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/spdlog/include -O0 -ggdb -fPIC -O0 -ggdb -std=c++17 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /root/my_leveldb/third_party/spdlog/src/async.cpp",
+  "file": "/root/my_leveldb/third_party/spdlog/src/async.cpp"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/spdlog/include -O0 -ggdb -fPIC -O0 -ggdb -std=c++17 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /root/my_leveldb/third_party/spdlog/src/cfg.cpp",
+  "file": "/root/my_leveldb/third_party/spdlog/src/cfg.cpp"
+},
+{
+  "directory": "/root/my_leveldb/build/third_party/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/spdlog/include -O0 -ggdb -fPIC -O0 -ggdb -std=c++17 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /root/my_leveldb/third_party/spdlog/src/bundled_fmtlib_format.cpp",
+  "file": "/root/my_leveldb/third_party/spdlog/src/bundled_fmtlib_format.cpp"
+}
+]
