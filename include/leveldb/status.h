@@ -94,7 +94,7 @@ class Status {
   }
 
    Status(Code code, const Slice &msg, const Slice &msg2);
-   static auto CopyStatus(const char *s) -> const char *;
+   static auto CopyState(const char *s) -> const char *;
   // OK status has a null state_. Otherwise, state_ is a new[] array
   // of the following form:
   // state_[0...3] == length of message
@@ -104,13 +104,13 @@ class Status {
 };
 
 inline Status::Status(const Status &rhs) {
-  state_ = (rhs.state_ == nullptr ) ? nullptr : CopyStatus(rhs.state_);
+  state_ = (rhs.state_ == nullptr ) ? nullptr : CopyState(rhs.state_);
 }
 
 inline auto Status::operator=(const Status &rhs) noexcept -> Status& {
   if (state_ != rhs.state_) {
     delete [] state_;
-    state_ = (rhs.state_ == nullptr) ? nullptr : CopyStatus(rhs.state_);
+    state_ = (rhs.state_ == nullptr) ? nullptr : CopyState(rhs.state_);
   }
   return *this;
 }

@@ -125,10 +125,66 @@ CMakeFiles/my_leveldb.dir/db/memtable.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/db/memtable.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/db/memtable.cc -o CMakeFiles/my_leveldb.dir/db/memtable.cc.s
 
+CMakeFiles/my_leveldb.dir/table/block_builder.cc.o: CMakeFiles/my_leveldb.dir/flags.make
+CMakeFiles/my_leveldb.dir/table/block_builder.cc.o: /root/my_leveldb/table/block_builder.cc
+CMakeFiles/my_leveldb.dir/table/block_builder.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/my_leveldb.dir/table/block_builder.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/table/block_builder.cc.o -MF CMakeFiles/my_leveldb.dir/table/block_builder.cc.o.d -o CMakeFiles/my_leveldb.dir/table/block_builder.cc.o -c /root/my_leveldb/table/block_builder.cc
+
+CMakeFiles/my_leveldb.dir/table/block_builder.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/table/block_builder.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/table/block_builder.cc > CMakeFiles/my_leveldb.dir/table/block_builder.cc.i
+
+CMakeFiles/my_leveldb.dir/table/block_builder.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/table/block_builder.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/table/block_builder.cc -o CMakeFiles/my_leveldb.dir/table/block_builder.cc.s
+
+CMakeFiles/my_leveldb.dir/table/block.cc.o: CMakeFiles/my_leveldb.dir/flags.make
+CMakeFiles/my_leveldb.dir/table/block.cc.o: /root/my_leveldb/table/block.cc
+CMakeFiles/my_leveldb.dir/table/block.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/my_leveldb.dir/table/block.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/table/block.cc.o -MF CMakeFiles/my_leveldb.dir/table/block.cc.o.d -o CMakeFiles/my_leveldb.dir/table/block.cc.o -c /root/my_leveldb/table/block.cc
+
+CMakeFiles/my_leveldb.dir/table/block.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/table/block.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/table/block.cc > CMakeFiles/my_leveldb.dir/table/block.cc.i
+
+CMakeFiles/my_leveldb.dir/table/block.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/table/block.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/table/block.cc -o CMakeFiles/my_leveldb.dir/table/block.cc.s
+
+CMakeFiles/my_leveldb.dir/table/filter_block.cc.o: CMakeFiles/my_leveldb.dir/flags.make
+CMakeFiles/my_leveldb.dir/table/filter_block.cc.o: /root/my_leveldb/table/filter_block.cc
+CMakeFiles/my_leveldb.dir/table/filter_block.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/my_leveldb.dir/table/filter_block.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/table/filter_block.cc.o -MF CMakeFiles/my_leveldb.dir/table/filter_block.cc.o.d -o CMakeFiles/my_leveldb.dir/table/filter_block.cc.o -c /root/my_leveldb/table/filter_block.cc
+
+CMakeFiles/my_leveldb.dir/table/filter_block.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/table/filter_block.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/table/filter_block.cc > CMakeFiles/my_leveldb.dir/table/filter_block.cc.i
+
+CMakeFiles/my_leveldb.dir/table/filter_block.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/table/filter_block.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/table/filter_block.cc -o CMakeFiles/my_leveldb.dir/table/filter_block.cc.s
+
+CMakeFiles/my_leveldb.dir/table/format.cc.o: CMakeFiles/my_leveldb.dir/flags.make
+CMakeFiles/my_leveldb.dir/table/format.cc.o: /root/my_leveldb/table/format.cc
+CMakeFiles/my_leveldb.dir/table/format.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/my_leveldb.dir/table/format.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/table/format.cc.o -MF CMakeFiles/my_leveldb.dir/table/format.cc.o.d -o CMakeFiles/my_leveldb.dir/table/format.cc.o -c /root/my_leveldb/table/format.cc
+
+CMakeFiles/my_leveldb.dir/table/format.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/table/format.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/table/format.cc > CMakeFiles/my_leveldb.dir/table/format.cc.i
+
+CMakeFiles/my_leveldb.dir/table/format.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/table/format.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/table/format.cc -o CMakeFiles/my_leveldb.dir/table/format.cc.s
+
 CMakeFiles/my_leveldb.dir/util/arena.cc.o: CMakeFiles/my_leveldb.dir/flags.make
 CMakeFiles/my_leveldb.dir/util/arena.cc.o: /root/my_leveldb/util/arena.cc
 CMakeFiles/my_leveldb.dir/util/arena.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/my_leveldb.dir/util/arena.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/my_leveldb.dir/util/arena.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/arena.cc.o -MF CMakeFiles/my_leveldb.dir/util/arena.cc.o.d -o CMakeFiles/my_leveldb.dir/util/arena.cc.o -c /root/my_leveldb/util/arena.cc
 
 CMakeFiles/my_leveldb.dir/util/arena.cc.i: cmake_force
@@ -139,10 +195,24 @@ CMakeFiles/my_leveldb.dir/util/arena.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/util/arena.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/arena.cc -o CMakeFiles/my_leveldb.dir/util/arena.cc.s
 
+CMakeFiles/my_leveldb.dir/util/bloom.cc.o: CMakeFiles/my_leveldb.dir/flags.make
+CMakeFiles/my_leveldb.dir/util/bloom.cc.o: /root/my_leveldb/util/bloom.cc
+CMakeFiles/my_leveldb.dir/util/bloom.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/my_leveldb.dir/util/bloom.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/bloom.cc.o -MF CMakeFiles/my_leveldb.dir/util/bloom.cc.o.d -o CMakeFiles/my_leveldb.dir/util/bloom.cc.o -c /root/my_leveldb/util/bloom.cc
+
+CMakeFiles/my_leveldb.dir/util/bloom.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/util/bloom.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/util/bloom.cc > CMakeFiles/my_leveldb.dir/util/bloom.cc.i
+
+CMakeFiles/my_leveldb.dir/util/bloom.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/util/bloom.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/bloom.cc -o CMakeFiles/my_leveldb.dir/util/bloom.cc.s
+
 CMakeFiles/my_leveldb.dir/util/cache.cc.o: CMakeFiles/my_leveldb.dir/flags.make
 CMakeFiles/my_leveldb.dir/util/cache.cc.o: /root/my_leveldb/util/cache.cc
 CMakeFiles/my_leveldb.dir/util/cache.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/my_leveldb.dir/util/cache.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/my_leveldb.dir/util/cache.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/cache.cc.o -MF CMakeFiles/my_leveldb.dir/util/cache.cc.o.d -o CMakeFiles/my_leveldb.dir/util/cache.cc.o -c /root/my_leveldb/util/cache.cc
 
 CMakeFiles/my_leveldb.dir/util/cache.cc.i: cmake_force
@@ -156,7 +226,7 @@ CMakeFiles/my_leveldb.dir/util/cache.cc.s: cmake_force
 CMakeFiles/my_leveldb.dir/util/coding.cc.o: CMakeFiles/my_leveldb.dir/flags.make
 CMakeFiles/my_leveldb.dir/util/coding.cc.o: /root/my_leveldb/util/coding.cc
 CMakeFiles/my_leveldb.dir/util/coding.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/my_leveldb.dir/util/coding.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/my_leveldb.dir/util/coding.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/coding.cc.o -MF CMakeFiles/my_leveldb.dir/util/coding.cc.o.d -o CMakeFiles/my_leveldb.dir/util/coding.cc.o -c /root/my_leveldb/util/coding.cc
 
 CMakeFiles/my_leveldb.dir/util/coding.cc.i: cmake_force
@@ -167,10 +237,24 @@ CMakeFiles/my_leveldb.dir/util/coding.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/util/coding.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/coding.cc -o CMakeFiles/my_leveldb.dir/util/coding.cc.s
 
+CMakeFiles/my_leveldb.dir/util/comparator.cc.o: CMakeFiles/my_leveldb.dir/flags.make
+CMakeFiles/my_leveldb.dir/util/comparator.cc.o: /root/my_leveldb/util/comparator.cc
+CMakeFiles/my_leveldb.dir/util/comparator.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/my_leveldb.dir/util/comparator.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/comparator.cc.o -MF CMakeFiles/my_leveldb.dir/util/comparator.cc.o.d -o CMakeFiles/my_leveldb.dir/util/comparator.cc.o -c /root/my_leveldb/util/comparator.cc
+
+CMakeFiles/my_leveldb.dir/util/comparator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/util/comparator.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/util/comparator.cc > CMakeFiles/my_leveldb.dir/util/comparator.cc.i
+
+CMakeFiles/my_leveldb.dir/util/comparator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/util/comparator.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/comparator.cc -o CMakeFiles/my_leveldb.dir/util/comparator.cc.s
+
 CMakeFiles/my_leveldb.dir/util/crc32c.cc.o: CMakeFiles/my_leveldb.dir/flags.make
 CMakeFiles/my_leveldb.dir/util/crc32c.cc.o: /root/my_leveldb/util/crc32c.cc
 CMakeFiles/my_leveldb.dir/util/crc32c.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/my_leveldb.dir/util/crc32c.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/my_leveldb.dir/util/crc32c.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/crc32c.cc.o -MF CMakeFiles/my_leveldb.dir/util/crc32c.cc.o.d -o CMakeFiles/my_leveldb.dir/util/crc32c.cc.o -c /root/my_leveldb/util/crc32c.cc
 
 CMakeFiles/my_leveldb.dir/util/crc32c.cc.i: cmake_force
@@ -184,7 +268,7 @@ CMakeFiles/my_leveldb.dir/util/crc32c.cc.s: cmake_force
 CMakeFiles/my_leveldb.dir/util/env.cc.o: CMakeFiles/my_leveldb.dir/flags.make
 CMakeFiles/my_leveldb.dir/util/env.cc.o: /root/my_leveldb/util/env.cc
 CMakeFiles/my_leveldb.dir/util/env.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/my_leveldb.dir/util/env.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/my_leveldb.dir/util/env.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/env.cc.o -MF CMakeFiles/my_leveldb.dir/util/env.cc.o.d -o CMakeFiles/my_leveldb.dir/util/env.cc.o -c /root/my_leveldb/util/env.cc
 
 CMakeFiles/my_leveldb.dir/util/env.cc.i: cmake_force
@@ -198,7 +282,7 @@ CMakeFiles/my_leveldb.dir/util/env.cc.s: cmake_force
 CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o: CMakeFiles/my_leveldb.dir/flags.make
 CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o: /root/my_leveldb/util/filter_policy.cc
 CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o -MF CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o.d -o CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o -c /root/my_leveldb/util/filter_policy.cc
 
 CMakeFiles/my_leveldb.dir/util/filter_policy.cc.i: cmake_force
@@ -212,7 +296,7 @@ CMakeFiles/my_leveldb.dir/util/filter_policy.cc.s: cmake_force
 CMakeFiles/my_leveldb.dir/util/hash.cc.o: CMakeFiles/my_leveldb.dir/flags.make
 CMakeFiles/my_leveldb.dir/util/hash.cc.o: /root/my_leveldb/util/hash.cc
 CMakeFiles/my_leveldb.dir/util/hash.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/my_leveldb.dir/util/hash.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/my_leveldb.dir/util/hash.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/hash.cc.o -MF CMakeFiles/my_leveldb.dir/util/hash.cc.o.d -o CMakeFiles/my_leveldb.dir/util/hash.cc.o -c /root/my_leveldb/util/hash.cc
 
 CMakeFiles/my_leveldb.dir/util/hash.cc.i: cmake_force
@@ -226,7 +310,7 @@ CMakeFiles/my_leveldb.dir/util/hash.cc.s: cmake_force
 CMakeFiles/my_leveldb.dir/util/logging.cc.o: CMakeFiles/my_leveldb.dir/flags.make
 CMakeFiles/my_leveldb.dir/util/logging.cc.o: /root/my_leveldb/util/logging.cc
 CMakeFiles/my_leveldb.dir/util/logging.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/my_leveldb.dir/util/logging.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/my_leveldb.dir/util/logging.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/logging.cc.o -MF CMakeFiles/my_leveldb.dir/util/logging.cc.o.d -o CMakeFiles/my_leveldb.dir/util/logging.cc.o -c /root/my_leveldb/util/logging.cc
 
 CMakeFiles/my_leveldb.dir/util/logging.cc.i: cmake_force
@@ -237,20 +321,71 @@ CMakeFiles/my_leveldb.dir/util/logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/util/logging.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/logging.cc -o CMakeFiles/my_leveldb.dir/util/logging.cc.s
 
+CMakeFiles/my_leveldb.dir/util/options.cc.o: CMakeFiles/my_leveldb.dir/flags.make
+CMakeFiles/my_leveldb.dir/util/options.cc.o: /root/my_leveldb/util/options.cc
+CMakeFiles/my_leveldb.dir/util/options.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/my_leveldb.dir/util/options.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/options.cc.o -MF CMakeFiles/my_leveldb.dir/util/options.cc.o.d -o CMakeFiles/my_leveldb.dir/util/options.cc.o -c /root/my_leveldb/util/options.cc
+
+CMakeFiles/my_leveldb.dir/util/options.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/util/options.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/util/options.cc > CMakeFiles/my_leveldb.dir/util/options.cc.i
+
+CMakeFiles/my_leveldb.dir/util/options.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/util/options.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/options.cc -o CMakeFiles/my_leveldb.dir/util/options.cc.s
+
+CMakeFiles/my_leveldb.dir/util/status.cc.o: CMakeFiles/my_leveldb.dir/flags.make
+CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc
+CMakeFiles/my_leveldb.dir/util/status.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/my_leveldb.dir/util/status.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/status.cc.o -MF CMakeFiles/my_leveldb.dir/util/status.cc.o.d -o CMakeFiles/my_leveldb.dir/util/status.cc.o -c /root/my_leveldb/util/status.cc
+
+CMakeFiles/my_leveldb.dir/util/status.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/util/status.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/util/status.cc > CMakeFiles/my_leveldb.dir/util/status.cc.i
+
+CMakeFiles/my_leveldb.dir/util/status.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/util/status.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/status.cc -o CMakeFiles/my_leveldb.dir/util/status.cc.s
+
+CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o: CMakeFiles/my_leveldb.dir/flags.make
+CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o: /root/my_leveldb/helper/memenv/memenv.cc
+CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o -MF CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o.d -o CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o -c /root/my_leveldb/helper/memenv/memenv.cc
+
+CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/helper/memenv/memenv.cc > CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.i
+
+CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/helper/memenv/memenv.cc -o CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.s
+
 # Object files for target my_leveldb
 my_leveldb_OBJECTS = \
 "CMakeFiles/my_leveldb.dir/db/dbformat.cc.o" \
 "CMakeFiles/my_leveldb.dir/db/log_reader.cc.o" \
 "CMakeFiles/my_leveldb.dir/db/log_writer.cc.o" \
 "CMakeFiles/my_leveldb.dir/db/memtable.cc.o" \
+"CMakeFiles/my_leveldb.dir/table/block_builder.cc.o" \
+"CMakeFiles/my_leveldb.dir/table/block.cc.o" \
+"CMakeFiles/my_leveldb.dir/table/filter_block.cc.o" \
+"CMakeFiles/my_leveldb.dir/table/format.cc.o" \
 "CMakeFiles/my_leveldb.dir/util/arena.cc.o" \
+"CMakeFiles/my_leveldb.dir/util/bloom.cc.o" \
 "CMakeFiles/my_leveldb.dir/util/cache.cc.o" \
 "CMakeFiles/my_leveldb.dir/util/coding.cc.o" \
+"CMakeFiles/my_leveldb.dir/util/comparator.cc.o" \
 "CMakeFiles/my_leveldb.dir/util/crc32c.cc.o" \
 "CMakeFiles/my_leveldb.dir/util/env.cc.o" \
 "CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o" \
 "CMakeFiles/my_leveldb.dir/util/hash.cc.o" \
-"CMakeFiles/my_leveldb.dir/util/logging.cc.o"
+"CMakeFiles/my_leveldb.dir/util/logging.cc.o" \
+"CMakeFiles/my_leveldb.dir/util/options.cc.o" \
+"CMakeFiles/my_leveldb.dir/util/status.cc.o" \
+"CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o"
 
 # External object files for target my_leveldb
 my_leveldb_EXTERNAL_OBJECTS =
@@ -259,17 +394,26 @@ libmy_leveldb.a: CMakeFiles/my_leveldb.dir/db/dbformat.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/db/log_reader.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/db/log_writer.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/db/memtable.cc.o
+libmy_leveldb.a: CMakeFiles/my_leveldb.dir/table/block_builder.cc.o
+libmy_leveldb.a: CMakeFiles/my_leveldb.dir/table/block.cc.o
+libmy_leveldb.a: CMakeFiles/my_leveldb.dir/table/filter_block.cc.o
+libmy_leveldb.a: CMakeFiles/my_leveldb.dir/table/format.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/arena.cc.o
+libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/bloom.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/cache.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/coding.cc.o
+libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/comparator.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/crc32c.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/env.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/hash.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/logging.cc.o
+libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/options.cc.o
+libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/status.cc.o
+libmy_leveldb.a: CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/build.make
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libmy_leveldb.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libmy_leveldb.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/my_leveldb.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_leveldb.dir/link.txt --verbose=$(VERBOSE)
 

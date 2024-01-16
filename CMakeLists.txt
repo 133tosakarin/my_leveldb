@@ -19,6 +19,14 @@ if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_EXTENSIONS OFF)
 endif(NOT CMAKE_CXX_STANDARD)
 
+if (WIN32)
+  set(MY_LEVELDB_PLATFORM_NAME MY_LEVELDB_PLATFORM_WINDOWS)
+  add_definitions((-D_UNICODE -DUNICODE))
+else (WIN32)
+  set(MY_LEVELDB_PLATFORM_NAME MY_LEVELDB_PLATFORM_POSIX)
+endif (WIN32)
+
+
 option(MY_LEVELDB_BUILD_TESTS "Build LevelDB's unit tests" ON)
 option(MY_LEVELDB_BUILD_BENCHMARKS "Build LevelDB's benchmarks" ON)
 option(MY_LEVELDB_INSTALL "Install LevelDB's header and library" ON)
@@ -123,17 +131,17 @@ target_sources(my_leveldb
     # "db/version_set.h"
     # "db/write_batch_internal.h"
     # "db/write_batch.cc"
-    # "port/port_stdcxx.h"
-    # "port/port.h"
+     "port/port_stdcxx.h"
+     "port/port.h"
     # "port/thread_annotations.h"
-    # "table/block_builder.cc"
-    # "table/block_builder.h"
-    # "table/block.cc"
-    # "table/block.h"
-    # "table/filter_block.cc"
-    # "table/filter_block.h"
-    # "table/format.cc"
-    # "table/format.h"
+     "table/block_builder.cc"
+     "table/block_builder.h"
+     "table/block.cc"
+     "table/block.h"
+     "table/filter_block.cc"
+     "table/filter_block.h"
+     "table/format.cc"
+     "table/format.h"
     # "table/iterator_wrapper.h"
     # "table/iterator.cc"
     # "table/merger.cc"
@@ -144,11 +152,11 @@ target_sources(my_leveldb
     # "table/two_level_iterator.h"
      "util/arena.cc"
      "util/arena.h"
-    # "util/bloom.cc"
+     "util/bloom.cc"
      "util/cache.cc"
      "util/coding.cc"
      "util/coding.h"
-    # "util/comparator.cc"
+     "util/comparator.cc"
      "util/crc32c.cc"
      "util/crc32c.h"
      "util/env.cc"
@@ -158,10 +166,10 @@ target_sources(my_leveldb
      "util/logging.cc"
      "util/logging.h"
     # "util/mutexlock.h"
-    # "util/no_destructor.h"
-    # "util/options.cc"
+     "util/no_destructor.h"
+     "util/options.cc"
      "util/random.h"
-    # "util/status.cc"
+     "util/status.cc"
 
   # Only CMake 3.3+ supports PUBLIC sources in targets exported by "install".
   $<$<VERSION_GREATER:CMAKE_VERSION,3.2>:PUBLIC>
@@ -171,7 +179,7 @@ target_sources(my_leveldb
      "${MY_LEVELDB_PUBLIC_INCLUDE_DIR}/db.h"
     # "${MY_LEVELDB_PUBLIC_INCLUDE_DIR}/dumpfile.h"
      "${MY_LEVELDB_PUBLIC_INCLUDE_DIR}/env.h"
-    # "${MY_LEVELDB_PUBLIC_INCLUDE_DIR}/export.h"
+     "${MY_LEVELDB_PUBLIC_INCLUDE_DIR}/export.h"
      "${MY_LEVELDB_PUBLIC_INCLUDE_DIR}/filter_policy.h"
      "${MY_LEVELDB_PUBLIC_INCLUDE_DIR}/iterator.h"
      "${MY_LEVELDB_PUBLIC_INCLUDE_DIR}/options.h"
@@ -185,8 +193,8 @@ target_sources(my_leveldb
 # MemEnv is not part of the interface and could be pulled to a separate library.
 target_sources(my_leveldb
   PRIVATE
-    # "helpers/memenv/memenv.cc"
-    # "helpers/memenv/memenv.h"
+     "helper/memenv/memenv.cc"
+     "helper/memenv/memenv.h"
 )
 
 target_include_directories(my_leveldb
@@ -198,19 +206,19 @@ message("thid_dir: ${PROJECT_SOURCE_DIR}/include")
 set_target_properties(my_leveldb
   PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION ${PROJECT_VERSION_MAJOR})
 
-# target_compile_definitions(my_leveldb
-#   PRIVATE
-#     # Used by include/export.h when building shared libraries.
-#     MY_LEVELDB_COMPILE_LIBRARY
-#     # Used by port/port.h.
-#     ${MY_LEVELDB_PLATFORM_NAME}=1
-# )
-# if (NOT HAVE_CXX17_HAS_INCLUDE)
-#   target_compile_definitions(my_leveldb
-#     PRIVATE
-#       MY_LEVELDB_HAS_PORT_CONFIG_H=1
-#   )
-# endif(NOT HAVE_CXX17_HAS_INCLUDE)
+target_compile_definitions(my_leveldb
+  PRIVATE
+    # Used by include/export.h when building shared libraries.
+    MY_LEVELDB_COMPILE_LIBRARY
+    # Used by port/port.h.
+    ${MY_LEVELDB_PLATFORM_NAME}=1
+)
+if (NOT HAVE_CXX17_HAS_INCLUDE)
+  target_compile_definitions(my_leveldb
+    PRIVATE
+      MY_LEVELDB_HAS_PORT_CONFIG_H=1
+  )
+endif(NOT HAVE_CXX17_HAS_INCLUDE)
 
 if(BUILD_SHARED_LIBS)
   target_compile_definitions(my_leveldb
@@ -283,12 +291,12 @@ if(MY_LEVELDB_BUILD_TESTS)
       # "issues/issue178_test.cc"
       # "issues/issue200_test.cc"
       # "issues/issue320_test.cc"
-      # "${PROJECT_BINARY_DIR}/${MY_LEVELDB_PORT_CONFIG_DIR}/port_config.h"
+       "${PROJECT_BINARY_DIR}/${MY_LEVELDB_PORT_CONFIG_DIR}/port_config.h"
       # "util/env_test.cc"
       # "util/status_test.cc"
       # "util/no_destructor_test.cc"
-      # "util/testutil.cc"
-      # "util/testutil.h"
+       "util/testutil.cc"
+       "util/testutil.h"
   )
   message("my_leveldb_tests: ${my_leveldb_tests}")
   if(NOT BUILD_SHARED_LIBS)
@@ -306,7 +314,7 @@ if(MY_LEVELDB_BUILD_TESTS)
         # "db/version_set_test.cc"
         # "db/write_batch_test.cc"
         # "helpers/memenv/memenv_test.cc"
-        # "table/filter_block_test.cc"
+         "table/filter_block_test.cc"
         # "table/table_test.cc"
         # "util/arena_test.cc"
         # "util/bloom_test.cc"
@@ -319,16 +327,16 @@ if(MY_LEVELDB_BUILD_TESTS)
     )
   endif(NOT BUILD_SHARED_LIBS)
   target_link_libraries(my_leveldb_tests my_leveldb gmock gtest gtest_main)
-  # target_compile_definitions(my_leveldb_tests
-  #   PRIVATE
-  #     ${MY_LEVELDB_PLATFORM_NAME}=1
-  # )
-  # if (NOT HAVE_CXX17_HAS_INCLUDE)
-  #   target_compile_definitions(my_leveldb_tests
-  #     PRIVATE
-  #       MY_LEVELDB_HAS_PORT_CONFIG_H=1
-  #   )
-  # endif(NOT HAVE_CXX17_HAS_INCLUDE)
+  target_compile_definitions(my_leveldb_tests
+    PRIVATE
+      ${MY_LEVELDB_PLATFORM_NAME}=1
+  )
+  if (NOT HAVE_CXX17_HAS_INCLUDE)
+    target_compile_definitions(my_leveldb_tests
+      PRIVATE
+        MY_LEVELDB_HAS_PORT_CONFIG_H=1
+    )
+  endif(NOT HAVE_CXX17_HAS_INCLUDE)
 
   add_test(NAME "my_leveldb_tests" COMMAND "my_leveldb_tests")
 
@@ -345,16 +353,16 @@ if(MY_LEVELDB_BUILD_TESTS)
         "${test_file}"
     )
     target_link_libraries("${test_target_name}" my_leveldb gmock gtest)
-    # target_compile_definitions("${test_target_name}"
-    #   PRIVATE
-    #     ${MY_LEVELDB_PLATFORM_NAME}=1
-    # )
-    # if (NOT HAVE_CXX17_HAS_INCLUDE)
-    #   target_compile_definitions("${test_target_name}"
-    #     PRIVATE
-    #       MY_LEVELDB_HAS_PORT_CONFIG_H=1
-    #   )
-    # endif(NOT HAVE_CXX17_HAS_INCLUDE)
+    target_compile_definitions("${test_target_name}"
+      PRIVATE
+        ${MY_LEVELDB_PLATFORM_NAME}=1
+    )
+    if (NOT HAVE_CXX17_HAS_INCLUDE)
+      target_compile_definitions("${test_target_name}"
+        PRIVATE
+          MY_LEVELDB_HAS_PORT_CONFIG_H=1
+      )
+    endif(NOT HAVE_CXX17_HAS_INCLUDE)
 
     add_test(NAME "${test_target_name}" COMMAND "${test_target_name}")
   endfunction(my_leveldb_test)

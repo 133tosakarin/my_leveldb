@@ -1,72 +1,127 @@
 [
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/dbformat.cc.o -c /root/my_leveldb/db/dbformat.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/dbformat.cc.o -c /root/my_leveldb/db/dbformat.cc",
   "file": "/root/my_leveldb/db/dbformat.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/log_reader.cc.o -c /root/my_leveldb/db/log_reader.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/log_reader.cc.o -c /root/my_leveldb/db/log_reader.cc",
   "file": "/root/my_leveldb/db/log_reader.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/log_writer.cc.o -c /root/my_leveldb/db/log_writer.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/log_writer.cc.o -c /root/my_leveldb/db/log_writer.cc",
   "file": "/root/my_leveldb/db/log_writer.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/memtable.cc.o -c /root/my_leveldb/db/memtable.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/db/memtable.cc.o -c /root/my_leveldb/db/memtable.cc",
   "file": "/root/my_leveldb/db/memtable.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/arena.cc.o -c /root/my_leveldb/util/arena.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/table/block_builder.cc.o -c /root/my_leveldb/table/block_builder.cc",
+  "file": "/root/my_leveldb/table/block_builder.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/table/block.cc.o -c /root/my_leveldb/table/block.cc",
+  "file": "/root/my_leveldb/table/block.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/table/filter_block.cc.o -c /root/my_leveldb/table/filter_block.cc",
+  "file": "/root/my_leveldb/table/filter_block.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/table/format.cc.o -c /root/my_leveldb/table/format.cc",
+  "file": "/root/my_leveldb/table/format.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/arena.cc.o -c /root/my_leveldb/util/arena.cc",
   "file": "/root/my_leveldb/util/arena.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/cache.cc.o -c /root/my_leveldb/util/cache.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/bloom.cc.o -c /root/my_leveldb/util/bloom.cc",
+  "file": "/root/my_leveldb/util/bloom.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/cache.cc.o -c /root/my_leveldb/util/cache.cc",
   "file": "/root/my_leveldb/util/cache.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/coding.cc.o -c /root/my_leveldb/util/coding.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/coding.cc.o -c /root/my_leveldb/util/coding.cc",
   "file": "/root/my_leveldb/util/coding.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/crc32c.cc.o -c /root/my_leveldb/util/crc32c.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/comparator.cc.o -c /root/my_leveldb/util/comparator.cc",
+  "file": "/root/my_leveldb/util/comparator.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/crc32c.cc.o -c /root/my_leveldb/util/crc32c.cc",
   "file": "/root/my_leveldb/util/crc32c.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/env.cc.o -c /root/my_leveldb/util/env.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/env.cc.o -c /root/my_leveldb/util/env.cc",
   "file": "/root/my_leveldb/util/env.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o -c /root/my_leveldb/util/filter_policy.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o -c /root/my_leveldb/util/filter_policy.cc",
   "file": "/root/my_leveldb/util/filter_policy.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/hash.cc.o -c /root/my_leveldb/util/hash.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/hash.cc.o -c /root/my_leveldb/util/hash.cc",
   "file": "/root/my_leveldb/util/hash.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/logging.cc.o -c /root/my_leveldb/util/logging.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/logging.cc.o -c /root/my_leveldb/util/logging.cc",
   "file": "/root/my_leveldb/util/logging.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o -c /root/my_leveldb/db/skiplist_test.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/options.cc.o -c /root/my_leveldb/util/options.cc",
+  "file": "/root/my_leveldb/util/options.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/status.cc.o -c /root/my_leveldb/util/status.cc",
+  "file": "/root/my_leveldb/util/status.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o -c /root/my_leveldb/helper/memenv/memenv.cc",
+  "file": "/root/my_leveldb/helper/memenv/memenv.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o -c /root/my_leveldb/util/testutil.cc",
+  "file": "/root/my_leveldb/util/testutil.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o -c /root/my_leveldb/db/skiplist_test.cc",
   "file": "/root/my_leveldb/db/skiplist_test.cc"
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o -c /root/my_leveldb/util/no_destructor_test.cc",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o -c /root/my_leveldb/table/filter_block_test.cc",
+  "file": "/root/my_leveldb/table/filter_block_test.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o -c /root/my_leveldb/util/no_destructor_test.cc",
   "file": "/root/my_leveldb/util/no_destructor_test.cc"
 },
 {

@@ -382,6 +382,150 @@ db/skiplist_test.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.s
 .PHONY : db/skiplist_test.cc.s
 
+helper/memenv/memenv.o: helper/memenv/memenv.cc.o
+.PHONY : helper/memenv/memenv.o
+
+# target to build an object file
+helper/memenv/memenv.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o
+.PHONY : helper/memenv/memenv.cc.o
+
+helper/memenv/memenv.i: helper/memenv/memenv.cc.i
+.PHONY : helper/memenv/memenv.i
+
+# target to preprocess a source file
+helper/memenv/memenv.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.i
+.PHONY : helper/memenv/memenv.cc.i
+
+helper/memenv/memenv.s: helper/memenv/memenv.cc.s
+.PHONY : helper/memenv/memenv.s
+
+# target to generate assembly for a file
+helper/memenv/memenv.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.s
+.PHONY : helper/memenv/memenv.cc.s
+
+table/block.o: table/block.cc.o
+.PHONY : table/block.o
+
+# target to build an object file
+table/block.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/block.cc.o
+.PHONY : table/block.cc.o
+
+table/block.i: table/block.cc.i
+.PHONY : table/block.i
+
+# target to preprocess a source file
+table/block.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/block.cc.i
+.PHONY : table/block.cc.i
+
+table/block.s: table/block.cc.s
+.PHONY : table/block.s
+
+# target to generate assembly for a file
+table/block.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/block.cc.s
+.PHONY : table/block.cc.s
+
+table/block_builder.o: table/block_builder.cc.o
+.PHONY : table/block_builder.o
+
+# target to build an object file
+table/block_builder.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/block_builder.cc.o
+.PHONY : table/block_builder.cc.o
+
+table/block_builder.i: table/block_builder.cc.i
+.PHONY : table/block_builder.i
+
+# target to preprocess a source file
+table/block_builder.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/block_builder.cc.i
+.PHONY : table/block_builder.cc.i
+
+table/block_builder.s: table/block_builder.cc.s
+.PHONY : table/block_builder.s
+
+# target to generate assembly for a file
+table/block_builder.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/block_builder.cc.s
+.PHONY : table/block_builder.cc.s
+
+table/filter_block.o: table/filter_block.cc.o
+.PHONY : table/filter_block.o
+
+# target to build an object file
+table/filter_block.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/filter_block.cc.o
+.PHONY : table/filter_block.cc.o
+
+table/filter_block.i: table/filter_block.cc.i
+.PHONY : table/filter_block.i
+
+# target to preprocess a source file
+table/filter_block.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/filter_block.cc.i
+.PHONY : table/filter_block.cc.i
+
+table/filter_block.s: table/filter_block.cc.s
+.PHONY : table/filter_block.s
+
+# target to generate assembly for a file
+table/filter_block.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/filter_block.cc.s
+.PHONY : table/filter_block.cc.s
+
+table/filter_block_test.o: table/filter_block_test.cc.o
+.PHONY : table/filter_block_test.o
+
+# target to build an object file
+table/filter_block_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o
+.PHONY : table/filter_block_test.cc.o
+
+table/filter_block_test.i: table/filter_block_test.cc.i
+.PHONY : table/filter_block_test.i
+
+# target to preprocess a source file
+table/filter_block_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.i
+.PHONY : table/filter_block_test.cc.i
+
+table/filter_block_test.s: table/filter_block_test.cc.s
+.PHONY : table/filter_block_test.s
+
+# target to generate assembly for a file
+table/filter_block_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.s
+.PHONY : table/filter_block_test.cc.s
+
+table/format.o: table/format.cc.o
+.PHONY : table/format.o
+
+# target to build an object file
+table/format.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/format.cc.o
+.PHONY : table/format.cc.o
+
+table/format.i: table/format.cc.i
+.PHONY : table/format.i
+
+# target to preprocess a source file
+table/format.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/format.cc.i
+.PHONY : table/format.cc.i
+
+table/format.s: table/format.cc.s
+.PHONY : table/format.s
+
+# target to generate assembly for a file
+table/format.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/table/format.cc.s
+.PHONY : table/format.cc.s
+
 util/arena.o: util/arena.cc.o
 .PHONY : util/arena.o
 
@@ -405,6 +549,30 @@ util/arena.s: util/arena.cc.s
 util/arena.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/arena.cc.s
 .PHONY : util/arena.cc.s
+
+util/bloom.o: util/bloom.cc.o
+.PHONY : util/bloom.o
+
+# target to build an object file
+util/bloom.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/bloom.cc.o
+.PHONY : util/bloom.cc.o
+
+util/bloom.i: util/bloom.cc.i
+.PHONY : util/bloom.i
+
+# target to preprocess a source file
+util/bloom.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/bloom.cc.i
+.PHONY : util/bloom.cc.i
+
+util/bloom.s: util/bloom.cc.s
+.PHONY : util/bloom.s
+
+# target to generate assembly for a file
+util/bloom.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/bloom.cc.s
+.PHONY : util/bloom.cc.s
 
 util/cache.o: util/cache.cc.o
 .PHONY : util/cache.o
@@ -453,6 +621,30 @@ util/coding.s: util/coding.cc.s
 util/coding.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/coding.cc.s
 .PHONY : util/coding.cc.s
+
+util/comparator.o: util/comparator.cc.o
+.PHONY : util/comparator.o
+
+# target to build an object file
+util/comparator.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/comparator.cc.o
+.PHONY : util/comparator.cc.o
+
+util/comparator.i: util/comparator.cc.i
+.PHONY : util/comparator.i
+
+# target to preprocess a source file
+util/comparator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/comparator.cc.i
+.PHONY : util/comparator.cc.i
+
+util/comparator.s: util/comparator.cc.s
+.PHONY : util/comparator.s
+
+# target to generate assembly for a file
+util/comparator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/comparator.cc.s
+.PHONY : util/comparator.cc.s
 
 util/crc32c.o: util/crc32c.cc.o
 .PHONY : util/crc32c.o
@@ -598,6 +790,78 @@ util/no_destructor_test.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.s
 .PHONY : util/no_destructor_test.cc.s
 
+util/options.o: util/options.cc.o
+.PHONY : util/options.o
+
+# target to build an object file
+util/options.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/options.cc.o
+.PHONY : util/options.cc.o
+
+util/options.i: util/options.cc.i
+.PHONY : util/options.i
+
+# target to preprocess a source file
+util/options.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/options.cc.i
+.PHONY : util/options.cc.i
+
+util/options.s: util/options.cc.s
+.PHONY : util/options.s
+
+# target to generate assembly for a file
+util/options.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/options.cc.s
+.PHONY : util/options.cc.s
+
+util/status.o: util/status.cc.o
+.PHONY : util/status.o
+
+# target to build an object file
+util/status.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/status.cc.o
+.PHONY : util/status.cc.o
+
+util/status.i: util/status.cc.i
+.PHONY : util/status.i
+
+# target to preprocess a source file
+util/status.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/status.cc.i
+.PHONY : util/status.cc.i
+
+util/status.s: util/status.cc.s
+.PHONY : util/status.s
+
+# target to generate assembly for a file
+util/status.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/status.cc.s
+.PHONY : util/status.cc.s
+
+util/testutil.o: util/testutil.cc.o
+.PHONY : util/testutil.o
+
+# target to build an object file
+util/testutil.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o
+.PHONY : util/testutil.cc.o
+
+util/testutil.i: util/testutil.cc.i
+.PHONY : util/testutil.i
+
+# target to preprocess a source file
+util/testutil.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.i
+.PHONY : util/testutil.cc.i
+
+util/testutil.s: util/testutil.cc.s
+.PHONY : util/testutil.s
+
+# target to generate assembly for a file
+util/testutil.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.s
+.PHONY : util/testutil.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -633,15 +897,39 @@ help:
 	@echo "... db/skiplist_test.o"
 	@echo "... db/skiplist_test.i"
 	@echo "... db/skiplist_test.s"
+	@echo "... helper/memenv/memenv.o"
+	@echo "... helper/memenv/memenv.i"
+	@echo "... helper/memenv/memenv.s"
+	@echo "... table/block.o"
+	@echo "... table/block.i"
+	@echo "... table/block.s"
+	@echo "... table/block_builder.o"
+	@echo "... table/block_builder.i"
+	@echo "... table/block_builder.s"
+	@echo "... table/filter_block.o"
+	@echo "... table/filter_block.i"
+	@echo "... table/filter_block.s"
+	@echo "... table/filter_block_test.o"
+	@echo "... table/filter_block_test.i"
+	@echo "... table/filter_block_test.s"
+	@echo "... table/format.o"
+	@echo "... table/format.i"
+	@echo "... table/format.s"
 	@echo "... util/arena.o"
 	@echo "... util/arena.i"
 	@echo "... util/arena.s"
+	@echo "... util/bloom.o"
+	@echo "... util/bloom.i"
+	@echo "... util/bloom.s"
 	@echo "... util/cache.o"
 	@echo "... util/cache.i"
 	@echo "... util/cache.s"
 	@echo "... util/coding.o"
 	@echo "... util/coding.i"
 	@echo "... util/coding.s"
+	@echo "... util/comparator.o"
+	@echo "... util/comparator.i"
+	@echo "... util/comparator.s"
 	@echo "... util/crc32c.o"
 	@echo "... util/crc32c.i"
 	@echo "... util/crc32c.s"
@@ -660,6 +948,15 @@ help:
 	@echo "... util/no_destructor_test.o"
 	@echo "... util/no_destructor_test.i"
 	@echo "... util/no_destructor_test.s"
+	@echo "... util/options.o"
+	@echo "... util/options.i"
+	@echo "... util/options.s"
+	@echo "... util/status.o"
+	@echo "... util/status.i"
+	@echo "... util/status.s"
+	@echo "... util/testutil.o"
+	@echo "... util/testutil.i"
+	@echo "... util/testutil.s"
 .PHONY : help
 
 

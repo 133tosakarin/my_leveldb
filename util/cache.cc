@@ -318,6 +318,11 @@ void LRUCache::Prune() {
   }
 }
 
+void LRUCache::Release(Cache::Handle *handle) {
+  std::lock_guard lock(mutex_);
+  Unref(reinterpret_cast<LRUHandle*>(handle));
+}
+
 static constexpr int kNumShardBits = 4;
 static constexpr int kNumShards = 1 << kNumShardBits;
 
@@ -362,7 +367,7 @@ class ShardedLRUCache : public Cache {
 
   void Erase(const Slice &key) override {
     const uint32_t hash = HashSlice(key);
-    shard_[Shard(hash)].Erase(key, h->hash);
+    shard_[Shard(hash)].Erase(key, hash);
   }
 
   auto Value(Handle *handle) -> void * override  {
