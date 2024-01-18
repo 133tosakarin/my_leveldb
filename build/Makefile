@@ -694,6 +694,30 @@ util/env.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/env.cc.s
 .PHONY : util/env.cc.s
 
+util/env_posix.o: util/env_posix.cc.o
+.PHONY : util/env_posix.o
+
+# target to build an object file
+util/env_posix.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/env_posix.cc.o
+.PHONY : util/env_posix.cc.o
+
+util/env_posix.i: util/env_posix.cc.i
+.PHONY : util/env_posix.i
+
+# target to preprocess a source file
+util/env_posix.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/env_posix.cc.i
+.PHONY : util/env_posix.cc.i
+
+util/env_posix.s: util/env_posix.cc.s
+.PHONY : util/env_posix.s
+
+# target to generate assembly for a file
+util/env_posix.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/env_posix.cc.s
+.PHONY : util/env_posix.cc.s
+
 util/filter_policy.o: util/filter_policy.cc.o
 .PHONY : util/filter_policy.o
 
@@ -936,6 +960,9 @@ help:
 	@echo "... util/env.o"
 	@echo "... util/env.i"
 	@echo "... util/env.s"
+	@echo "... util/env_posix.o"
+	@echo "... util/env_posix.i"
+	@echo "... util/env_posix.s"
 	@echo "... util/filter_policy.o"
 	@echo "... util/filter_policy.i"
 	@echo "... util/filter_policy.s"

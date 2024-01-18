@@ -190,6 +190,20 @@ target_sources(my_leveldb
     # "${MY_LEVELDB_PUBLIC_INCLUDE_DIR}/write_batch.h"
 )
 
+if (WIN32)
+  target_sources(my_leveldb
+    PRIVATE
+      "util/env_windows.cc"
+      "util/windows_logger.h" 
+  )
+else (WIN32)
+  target_sources(my_leveldb
+    PRIVATE 
+      "util/env_posix.cc"
+       "util/posix_logger.h"
+  )
+endif (WIN32)
+
 # MemEnv is not part of the interface and could be pulled to a separate library.
 target_sources(my_leveldb
   PRIVATE
@@ -347,8 +361,8 @@ if(MY_LEVELDB_BUILD_TESTS)
     target_sources("${test_target_name}"
       PRIVATE
         "${PROJECT_BINARY_DIR}/${MY_LEVELDB_PORT_CONFIG_DIR}/port_config.h"
-        # "util/testutil.cc"
-        # "util/testutil.h"
+         "util/testutil.cc"
+         "util/testutil.h"
 
         "${test_file}"
     )
