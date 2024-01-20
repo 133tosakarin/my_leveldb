@@ -6,6 +6,7 @@
 
 #include "gtest/gtest.h"
 #include "util/hash.h"
+#include "port/port.h"
 #include "util/arena.h"
 #include "util/random.h"
 #include "spdlog/spdlog.h"
@@ -358,9 +359,9 @@ static void RunConccrent(int run) {
 }
 
 TEST(SkipList ,Conccrent1) { RunConccrent(1); }
-TEST(SkipList ,Conccrent1) { RunConccrent(2); }
-TEST(SkipList ,Conccrent1) { RunConccrent(3); }
-TEST(SkipList ,Conccrent1) { RunConccrent(4); }
-TEST(SkipList ,Conccrent1) { RunConccrent(5); }
+TEST(SkipList ,Conccrent2) { RunConccrent(2); }
+TEST(SkipList ,Conccrent3) { RunConccrent(3); }
+TEST(SkipList ,Conccrent4) { RunConccrent(4); }
+TEST(SkipList ,Conccrent5) { RunConccrent(5); }
 
 }
