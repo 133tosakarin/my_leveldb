@@ -198,6 +198,19 @@ my_leveldb_tests/fast:
 .PHONY : my_leveldb_tests/fast
 
 #=============================================================================
+# Target rules for targets named env_posix_test
+
+# Build rule for target.
+env_posix_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 env_posix_test
+.PHONY : env_posix_test
+
+# fast build rule for target.
+env_posix_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/build
+.PHONY : env_posix_test/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -718,6 +731,30 @@ util/env_posix.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb.dir/build.make CMakeFiles/my_leveldb.dir/util/env_posix.cc.s
 .PHONY : util/env_posix.cc.s
 
+util/env_posix_test.o: util/env_posix_test.cc.o
+.PHONY : util/env_posix_test.o
+
+# target to build an object file
+util/env_posix_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o
+.PHONY : util/env_posix_test.cc.o
+
+util/env_posix_test.i: util/env_posix_test.cc.i
+.PHONY : util/env_posix_test.i
+
+# target to preprocess a source file
+util/env_posix_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.i
+.PHONY : util/env_posix_test.cc.i
+
+util/env_posix_test.s: util/env_posix_test.cc.s
+.PHONY : util/env_posix_test.s
+
+# target to generate assembly for a file
+util/env_posix_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.s
+.PHONY : util/env_posix_test.cc.s
+
 util/filter_policy.o: util/filter_policy.cc.o
 .PHONY : util/filter_policy.o
 
@@ -868,6 +905,7 @@ util/testutil.o: util/testutil.cc.o
 # target to build an object file
 util/testutil.cc.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/util/testutil.cc.o
 .PHONY : util/testutil.cc.o
 
 util/testutil.i: util/testutil.cc.i
@@ -876,6 +914,7 @@ util/testutil.i: util/testutil.cc.i
 # target to preprocess a source file
 util/testutil.cc.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/util/testutil.cc.i
 .PHONY : util/testutil.cc.i
 
 util/testutil.s: util/testutil.cc.s
@@ -884,6 +923,7 @@ util/testutil.s: util/testutil.cc.s
 # target to generate assembly for a file
 util/testutil.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_leveldb_tests.dir/build.make CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/util/testutil.cc.s
 .PHONY : util/testutil.cc.s
 
 # Help Target
@@ -899,6 +939,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... env_posix_test"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
@@ -963,6 +1004,9 @@ help:
 	@echo "... util/env_posix.o"
 	@echo "... util/env_posix.i"
 	@echo "... util/env_posix.s"
+	@echo "... util/env_posix_test.o"
+	@echo "... util/env_posix_test.i"
+	@echo "... util/env_posix_test.s"
 	@echo "... util/filter_policy.o"
 	@echo "... util/filter_policy.i"
 	@echo "... util/filter_policy.s"

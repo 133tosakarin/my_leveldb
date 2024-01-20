@@ -11,6 +11,7 @@
 #include "util/random.h"
 #include "spdlog/spdlog.h"
 #include "util/testutil.h"
+#include "leveldb/env.h"
 
 namespace my_leveldb {
 using Key = uint64_t;

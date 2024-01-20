@@ -1,5 +1,6 @@
 /root/my_leveldb/build/CMakeFiles/my_leveldb.dir
 /root/my_leveldb/build/CMakeFiles/my_leveldb_tests.dir
+/root/my_leveldb/build/CMakeFiles/env_posix_test.dir
 /root/my_leveldb/build/CMakeFiles/test.dir
 /root/my_leveldb/build/CMakeFiles/edit_cache.dir
 /root/my_leveldb/build/CMakeFiles/rebuild_cache.dir

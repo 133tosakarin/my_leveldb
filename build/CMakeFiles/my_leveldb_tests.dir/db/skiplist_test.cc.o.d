@@ -274,8 +274,11 @@ CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o: \
  /root/my_leveldb/third_party/googletest/googletest/include/gtest/gtest-typed-test.h \
  /root/my_leveldb/third_party/googletest/googletest/include/gtest/gtest_pred_impl.h \
  /root/my_leveldb/third_party/googletest/googletest/include/gtest/gtest_prod.h \
- /root/my_leveldb/./util/hash.h /usr/local/include/spdlog/spdlog.h \
- /usr/local/include/spdlog/common.h /usr/local/include/spdlog/tweakme.h \
+ /root/my_leveldb/./util/hash.h /root/my_leveldb/./port/port.h \
+ /root/my_leveldb/./port/port_stdcxx.h \
+ /root/my_leveldb/build/include/port/port_config.h \
+ /usr/local/include/spdlog/spdlog.h /usr/local/include/spdlog/common.h \
+ /usr/local/include/spdlog/tweakme.h \
  /usr/local/include/spdlog/details/null_mutex.h \
  /usr/include/c++/12/chrono /usr/local/include/spdlog/fmt/fmt.h \
  /usr/local/include/spdlog/fmt/bundled/core.h /usr/include/c++/12/cstring \

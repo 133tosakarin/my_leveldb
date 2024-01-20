@@ -197,6 +197,7 @@ if (WIN32)
       "util/windows_logger.h" 
   )
 else (WIN32)
+  message("posix")
   target_sources(my_leveldb
     PRIVATE 
       "util/env_posix.cc"
@@ -386,10 +387,11 @@ if(MY_LEVELDB_BUILD_TESTS)
   if(NOT BUILD_SHARED_LIBS)
     # TODO(costan): This test also uses
     #               "util/env_{posix|windows}_test_helper.h"
-    # if (WIN32)
-    #   my_leveldb_test("util/env_windows_test.cc")
-    # else (WIN32)
-    #   my_leveldb_test("util/env_posix_test.cc")
-    # endif (WIN32)
+    if (WIN32)
+      my_leveldb_test("util/env_windows_test.cc")
+    else (WIN32)
+      message("env_posix_test")
+      my_leveldb_test("util/env_posix_test.cc")
+    endif (WIN32)
   endif(NOT BUILD_SHARED_LIBS)
 endif(MY_LEVELDB_BUILD_TESTS)

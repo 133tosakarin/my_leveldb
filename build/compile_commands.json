@@ -130,6 +130,16 @@
   "file": "/root/my_leveldb/util/no_destructor_test.cc"
 },
 {
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/env_posix_test.dir/util/testutil.cc.o -c /root/my_leveldb/util/testutil.cc",
+  "file": "/root/my_leveldb/util/testutil.cc"
+},
+{
+  "directory": "/root/my_leveldb/build",
+  "command": "/usr/bin/g++ -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -isystem /root/my_leveldb/third_party/googletest/googlemock/include -isystem /root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIE -O0 -ggdb -std=c++17 -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o -c /root/my_leveldb/util/env_posix_test.cc",
+  "file": "/root/my_leveldb/util/env_posix_test.cc"
+},
+{
   "directory": "/root/my_leveldb/build/third_party/googletest/googlemock",
   "command": "/usr/bin/g++  -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/googletest/googlemock/include -I/root/my_leveldb/third_party/googletest/googlemock -isystem /root/my_leveldb/third_party/googletest/googletest/include -isystem /root/my_leveldb/third_party/googletest/googletest -O0 -ggdb -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O0 -ggdb -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /root/my_leveldb/third_party/googletest/googlemock/src/gmock-all.cc",
   "file": "/root/my_leveldb/third_party/googletest/googlemock/src/gmock-all.cc"
