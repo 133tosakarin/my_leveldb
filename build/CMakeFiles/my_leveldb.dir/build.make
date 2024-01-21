@@ -349,24 +349,10 @@ CMakeFiles/my_leveldb.dir/util/status.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/util/status.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/status.cc -o CMakeFiles/my_leveldb.dir/util/status.cc.s
 
-CMakeFiles/my_leveldb.dir/util/env_posix.cc.o: CMakeFiles/my_leveldb.dir/flags.make
-CMakeFiles/my_leveldb.dir/util/env_posix.cc.o: /root/my_leveldb/util/env_posix.cc
-CMakeFiles/my_leveldb.dir/util/env_posix.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/my_leveldb.dir/util/env_posix.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/util/env_posix.cc.o -MF CMakeFiles/my_leveldb.dir/util/env_posix.cc.o.d -o CMakeFiles/my_leveldb.dir/util/env_posix.cc.o -c /root/my_leveldb/util/env_posix.cc
-
-CMakeFiles/my_leveldb.dir/util/env_posix.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb.dir/util/env_posix.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/util/env_posix.cc > CMakeFiles/my_leveldb.dir/util/env_posix.cc.i
-
-CMakeFiles/my_leveldb.dir/util/env_posix.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb.dir/util/env_posix.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/env_posix.cc -o CMakeFiles/my_leveldb.dir/util/env_posix.cc.s
-
 CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o: CMakeFiles/my_leveldb.dir/flags.make
 CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o: /root/my_leveldb/helper/memenv/memenv.cc
 CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o: CMakeFiles/my_leveldb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o -MF CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o.d -o CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o -c /root/my_leveldb/helper/memenv/memenv.cc
 
 CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.i: cmake_force
@@ -399,7 +385,6 @@ my_leveldb_OBJECTS = \
 "CMakeFiles/my_leveldb.dir/util/logging.cc.o" \
 "CMakeFiles/my_leveldb.dir/util/options.cc.o" \
 "CMakeFiles/my_leveldb.dir/util/status.cc.o" \
-"CMakeFiles/my_leveldb.dir/util/env_posix.cc.o" \
 "CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o"
 
 # External object files for target my_leveldb
@@ -425,11 +410,10 @@ libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/hash.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/logging.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/options.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/status.cc.o
-libmy_leveldb.a: CMakeFiles/my_leveldb.dir/util/env_posix.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/build.make
 libmy_leveldb.a: CMakeFiles/my_leveldb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library libmy_leveldb.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libmy_leveldb.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/my_leveldb.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_leveldb.dir/link.txt --verbose=$(VERBOSE)
 

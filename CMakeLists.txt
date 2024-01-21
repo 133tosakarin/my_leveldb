@@ -200,7 +200,7 @@ else (WIN32)
   message("posix")
   target_sources(my_leveldb
     PRIVATE 
-      "util/env_posix.cc"
+       # "util/env_posix.cc"
        "util/posix_logger.h"
   )
 endif (WIN32)

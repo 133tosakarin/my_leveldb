@@ -31,8 +31,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_leveldb.dir/util/crc32c.cc.o.d"
   "CMakeFiles/my_leveldb.dir/util/env.cc.o"
   "CMakeFiles/my_leveldb.dir/util/env.cc.o.d"
-  "CMakeFiles/my_leveldb.dir/util/env_posix.cc.o"
-  "CMakeFiles/my_leveldb.dir/util/env_posix.cc.o.d"
   "CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o"
   "CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o.d"
   "CMakeFiles/my_leveldb.dir/util/hash.cc.o"

@@ -20,8 +20,8 @@ MATCHER(IsOK, "") { return arg.ok(); }
 #define EXPECT_LEVELDB_OK(expression) \
   EXPECT_THAT(expression, my_leveldb::test::IsOK())
 
-#define ASSERT_LEVELDB_OK(expression) \
-  ASSERT_THAT(expression, my_leveldb::test::IsOK()
+#define ASSERT_MY_LEVELDB_OK(expression) \
+  ASSERT_THAT(expression, my_leveldb::test::IsOK())
 
 // Returns the random seed used at the start of the current test run.
 inline auto RandomSeed() -> int {

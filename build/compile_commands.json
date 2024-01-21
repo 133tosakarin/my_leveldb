@@ -101,11 +101,6 @@
 },
 {
   "directory": "/root/my_leveldb/build",
-  "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/util/env_posix.cc.o -c /root/my_leveldb/util/env_posix.cc",
-  "file": "/root/my_leveldb/util/env_posix.cc"
-},
-{
-  "directory": "/root/my_leveldb/build",
   "command": "/usr/bin/g++ -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1 -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -O0 -ggdb -std=c++17 -o CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o -c /root/my_leveldb/helper/memenv/memenv.cc",
   "file": "/root/my_leveldb/helper/memenv/memenv.cc"
 },

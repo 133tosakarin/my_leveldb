@@ -3,6 +3,8 @@
 #pragma once
 
 #include "leveldb/status.h"
+#include "leveldb/export.h"
+
 #include <vector>
 #include <cstdarg>
 #include <string>

@@ -293,8 +293,74 @@ class InMemoryEnv : public EnvWrapper {
     result->clear();
 
     for (const auto &kvp : file_map_) {
-
+      const std::string &filename = kvp.first;
+      if (filename.size() >= dir.size() + 1 && filename[dir.size()] == '/'
+          && Slice(filename).starts_with(Slice(dir))) {
+        result->push_back(filename.substr(dir.size() + 1));
+      }
     }
+    return Status::OK();
+  }
+
+  void RemoveFileInternal(const std::string &fname) {
+    if (file_map_.find(fname) == file_map_.end()) {
+      return;
+    }
+    file_map_[fname]->Unref();
+    file_map_.erase(fname);
+  }
+
+  Status RemoveFile(const std::string &fname) {
+    std::lock_guard lock(mutex_);
+    if (file_map_.find(fname) == file_map_.end()) {
+      return Status::IOError(fname, "File not found");
+    }
+    RemoveFileInternal(fname);
+    return Status::OK();
+  }
+
+  Status CreateDir(const std::string &dirname) override { return Status::OK(); }
+  Status RemoveDir(const std::string &dirname) override { return Status::OK(); }
+
+  Status GetFileSize(const std::string &fname, uint64_t *file_size) override {
+    std::lock_guard lock(mutex_);
+    if (file_map_.find(fname) == file_map_.end()) {
+      return Status::IOError(fname, "File not found");
+    }
+    *file_size = file_map_[fname]->Size();
+    return Status::OK();
+  }
+
+  Status RenameFile(const std::string &src,
+                    const std::string &target) override {
+    std::lock_guard lock(mutex_);
+    if (file_map_.find(src) == file_map_.end()) {
+      return Status::IOError(src, "File not found");
+    }
+    RemoveFileInternal(target);
+    file_map_[target] = file_map_[src];
+    file_map_.erase(src);
+    return Status::OK();
+  }
+
+  Status LockFile(const std::string &fname, FileLock **lock) override {
+    *lock = new FileLock;
+    return Status::OK();
+  }
+
+  Status UnlockFile(FileLock *lock) override {
+    delete lock;
+    return Status::OK();
+  }
+
+  Status GetTestDirectory(std::string *path) override {
+    *path = "/test";
+    return Status::OK();
+  }
+
+  Status NewLogger(const std::string &fname, Logger **result) override {
+    *result = new NoOpLogger;
+    return Status::OK();
   }
  private:
   // Map from filename to FileState objects, representing a simple file system.

@@ -138,4 +138,5 @@ CMakeFiles/my_leveldb.dir/db/memtable.cc.o: \
  /root/my_leveldb/include/leveldb/filter_policy.h \
  /root/my_leveldb/include/leveldb/table_builder.h \
  /root/my_leveldb/./util/logging.h /root/my_leveldb/./util/coding.h \
- /root/my_leveldb/include/leveldb/env.h /usr/include/c++/12/cstdarg
+ /root/my_leveldb/include/leveldb/env.h \
+ /root/my_leveldb/include/leveldb/export.h /usr/include/c++/12/cstdarg
