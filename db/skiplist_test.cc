@@ -5,13 +5,13 @@
 #include <set>
 
 #include "gtest/gtest.h"
+#include "leveldb/env.h"
 #include "util/hash.h"
 #include "port/port.h"
 #include "util/arena.h"
 #include "util/random.h"
 #include "spdlog/spdlog.h"
 #include "util/testutil.h"
-#include "leveldb/env.h"
 
 namespace my_leveldb {
 using Key = uint64_t;
@@ -59,14 +59,14 @@ TEST(SkipTest, InsertAndLookup) {
     Key key = rnd.Next() % R;
     if (keys.insert(key).second) {
       list.Insert(key);
-      spdlog::info("insert key: {}", key);
+      // spdlog::info("insert key: {}", key);
     }
   }
   {
     SkipList<Key, Comparator>::Iterator iter(&list);
-    spdlog::info("smallest: {}, largest: {}", *keys.begin(), *keys.rbegin());
+    // spdlog::info("smallest: {}, largest: {}", *keys.begin(), *keys.rbegin());
     iter.SeekToFirst();
-    spdlog::info("smallest: {}, largest: {}", iter.key(), (iter.SeekToLast(), iter.key()));
+    // spdlog::info("smallest: {}, largest: {}", iter.key(), (iter.SeekToLast(), iter.key()));
   }
 
   for (int i = 0; i < R; ++i) {
@@ -313,7 +313,7 @@ class TestState {
       : seed_{s}, quit_flag_{false}, state_{STARTING} {}
   void Wait(ReaderState s) {
     std::unique_lock lock(mutex_);
-    state_cv_.wait(lock, [&]{ return state_ != s; });
+    state_cv_.wait(lock, [&]{ return state_ == s; });
   }
 
   void Change(ReaderState s) {

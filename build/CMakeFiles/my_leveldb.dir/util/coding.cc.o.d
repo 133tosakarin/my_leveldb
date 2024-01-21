@@ -115,4 +115,5 @@ CMakeFiles/my_leveldb.dir/util/coding.cc.o: \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
  /root/my_leveldb/include/leveldb/slice.h /usr/include/c++/12/cassert \
- /usr/include/assert.h /usr/include/c++/12/cstddef
+ /usr/include/assert.h /usr/include/c++/12/cstddef \
+ /root/my_leveldb/include/leveldb/export.h

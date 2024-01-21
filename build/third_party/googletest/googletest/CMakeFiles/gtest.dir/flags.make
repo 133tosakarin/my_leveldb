@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/googletest/googletest/include -I/root/my_leveldb/third_party/googletest/googletest
+CXX_INCLUDES = -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/third_party/googletest/googletest/include -I/root/my_leveldb/third_party/googletest/googletest
 
-CXX_FLAGS = -O0 -ggdb -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O0 -ggdb -std=c++17
+CXX_FLAGS =  -fno-rtti -O0 -ggdb -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -O0 -ggdb -std=c++17
 

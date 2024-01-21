@@ -17,6 +17,10 @@ auto Env::RemoveDir(const std::string &dirname) -> Status {
   return DeleteDir(dirname);
 }
 
+auto Env::CreateDir(const std::string &dirname) -> Status {
+  return Status::OK();
+}
+
 auto Env::DeleteDir(const std::string &dirname) -> Status {
   return RemoveDir(dirname);
 }

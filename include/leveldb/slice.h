@@ -14,6 +14,7 @@
 #include <cstring>
 #include <string>
 
+#include "leveldb/export.h"
 
 namespace my_leveldb {
 

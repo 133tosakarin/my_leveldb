@@ -50,6 +50,30 @@ check_cxx_symbol_exists(fdatasync "unistd.h" HAVE_FDATASYNC)
 check_cxx_symbol_exists(F_FULLFSYNC "fcntl.h" HAVE_FULLFSYNC)
 check_cxx_symbol_exists(O_CLOEXEC "fcntl.h" HAVE_O_CLOEXEC)
 
+if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
+  # Disable C++ exceptions.
+  # string(REGEX REPLACE "/EH[a-z]+" "" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+  # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /EHs-c-")
+  # add_definitions(-D_HAS_EXCEPTIONS=0)
+# 
+  # Disable RTTI.
+  string(REGEX REPLACE "/GR" "" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /GR-")
+else(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
+  # Enable strict prototype warnings for C code in clang and gcc.
+  if(NOT CMAKE_C_FLAGS MATCHES "-Wstrict-prototypes")
+    # set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wstrict-prototypes")
+  endif(NOT CMAKE_C_FLAGS MATCHES "-Wstrict-prototypes")
+# 
+  # Disable C++ exceptions.
+  # string(REGEX REPLACE "-fexceptions" "" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+  # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions")
+# 
+  # Disable RTTI.
+  string(REGEX REPLACE "-frtti" "" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti")
+endif(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
+
 # Test whether -Wthread-safety is available. See
 # https://clang.llvm.org/docs/ThreadSafetyAnalysis.html
 include(CheckCXXCompilerFlag)
@@ -80,9 +104,9 @@ configure_file(
 )
 
 include_directories(
-  "${PROJECT_SOURCE_DIR}/include"
-  "${PROJECT_SOURCE_DIR}/util"
-  "${PROJECT_BINARY_DIR}/include"
+  # "${PROJECT_SOURCE_DIR}/include"
+  # "${PROJECT_SOURCE_DIR}/util"
+   "${PROJECT_BINARY_DIR}/include"
   "."
 )
 message("proj: ${PROJECT_SOURCE_DIR}")
@@ -97,10 +121,9 @@ endif(BUILD_SHARED_LIBS)
 include(GNUInstallDirs)
 
 add_library(my_leveldb "")
-
 target_sources(my_leveldb
   PRIVATE
-    "${PROJECT_BINARY_DIR}/${LEVELDB_PORT_CONFIG_DIR}/port_config.h"
+    "${PROJECT_BINARY_DIR}/${MY_LEVELDB_PORT_CONFIG_DIR}/port_config.h"
     # "db/builder.cc"
     # "db/builder.h"
     # "db/c.cc"
@@ -200,7 +223,7 @@ else (WIN32)
   message("posix")
   target_sources(my_leveldb
     PRIVATE 
-       # "util/env_posix.cc"
+       "util/env_posix.cc"
        "util/posix_logger.h"
   )
 endif (WIN32)
@@ -309,7 +332,7 @@ if(MY_LEVELDB_BUILD_TESTS)
        "${PROJECT_BINARY_DIR}/${MY_LEVELDB_PORT_CONFIG_DIR}/port_config.h"
       # "util/env_test.cc"
       # "util/status_test.cc"
-      # "util/no_destructor_test.cc"
+       "util/no_destructor_test.cc"
        "util/testutil.cc"
        "util/testutil.h"
   )
@@ -356,6 +379,7 @@ if(MY_LEVELDB_BUILD_TESTS)
   add_test(NAME "my_leveldb_tests" COMMAND "my_leveldb_tests")
 
   function(my_leveldb_test test_file)
+    message("my_leveldb_test function args: ${test_file}")
     get_filename_component(test_target_name "${test_file}" NAME_WE)
 
     add_executable("${test_target_name}" "")

@@ -201,4 +201,137 @@ TEST_F(EnvPosixTest, TestOpenOnRead) {
 
   ASSERT_MY_LEVELDB_OK(env_->RemoveFile(test_file));
 }
+
+#if HAVE_O_CLOEXEC
+
+TEST_F(EnvPosixTest, TestCloseOnExecSequentialFile) {
+  std::unordered_set<int> open_fds;
+  GetOpenFileDescriptors(&open_fds);
+
+  std::string test_dir;
+  ASSERT_MY_LEVELDB_OK(env_->GetTestDirectory(&test_dir));
+  std::string file_path = test_dir + "/close_on_exec_sequential.txt";
+  ASSERT_MY_LEVELDB_OK(WriteStringToFile(env_, "0123456789", file_path));
+
+  my_leveldb::SequentialFile *file = nullptr;
+  ASSERT_MY_LEVELDB_OK(env_->NewSequentialFile(file_path, &file));
+  CheckCloseOnExecDoesNotLeakFDs(open_fds);
+  delete file;
+
+  ASSERT_MY_LEVELDB_OK(env_->RemoveFile(file_path));
+}
+
+TEST_F(EnvPosixTest, TestCloseOnExecRandomAccessFile) {
+  std::unordered_set<int> open_fds;
+  GetOpenFileDescriptors(&open_fds);
+
+  std::string test_dir;
+  ASSERT_MY_LEVELDB_OK(env_->GetTestDirectory(&test_dir));
+  std::string file_path = test_dir + "/close_on_exec_random_access.txt";
+  ASSERT_MY_LEVELDB_OK(WriteStringToFile(env_, "01234567890", file_path));
+
+  // Exhaust the RandomAccessFile mmap limit. This way, the test 
+  // RandomAccessFile instance below is backed by a file descriptor, not by an
+  // mmap region.
+  my_leveldb::RandomAccessFile *mmaped_files[kMmapLimit];
+  for (int i = 0; i < kMmapLimit; ++i) {
+    ASSERT_MY_LEVELDB_OK(env_->NewRandomAccessFile(file_path, &mmaped_files[i]));
+  }
+
+  my_leveldb::RandomAccessFile *file = nullptr;
+  ASSERT_MY_LEVELDB_OK(env_->NewRandomAccessFile(file_path, &file));
+  CheckCloseOnExecDoesNotLeakFDs(open_fds);
+  delete file;
+  for (int i = 0; i < kMmapLimit; ++i) {
+    delete mmaped_files[i];
+  }
+
+  ASSERT_MY_LEVELDB_OK(env_->RemoveFile(file_path));
+}
+
+TEST_F(EnvPosixTest, TestCloseOnExecWritableFile) {
+  std::unordered_set<int> open_fds;
+  GetOpenFileDescriptors(&open_fds);
+
+  std::string test_dir;
+  ASSERT_MY_LEVELDB_OK(env_->GetTestDirectory(&test_dir));
+  std::string file_path = test_dir + "/close_on_exec_writable.txt";
+  ASSERT_MY_LEVELDB_OK(WriteStringToFile(env_, "0123456789", file_path));
+
+  my_leveldb::WritableFile *file = nullptr;
+  ASSERT_MY_LEVELDB_OK(env_->NewWritableFile(file_path, &file));
+  CheckCloseOnExecDoesNotLeakFDs(open_fds);
+  delete file;
+
+  ASSERT_MY_LEVELDB_OK(env_->RemoveFile(file_path));
+}
+
+TEST_F(EnvPosixTest, TestCloseOnExecAppendFile) {
+  std::unordered_set<int> open_fds;
+  GetOpenFileDescriptors(&open_fds);
+
+  std::string test_dir;
+  ASSERT_MY_LEVELDB_OK(env_->GetTestDirectory(&test_dir));
+  std::string file_path = test_dir + "/close_on_exec_appendable.txt";
+  ASSERT_MY_LEVELDB_OK(WriteStringToFile(env_, "0123456789", file_path));
+
+  my_leveldb::WritableFile *file = nullptr;
+  ASSERT_MY_LEVELDB_OK(env_->NewAppendableFile(file_path, &file));
+  CheckCloseOnExecDoesNotLeakFDs(open_fds);
+  delete file;
+
+}
+
+TEST_F(EnvPosixTest, TestCloseOnExecLockFile) {
+  std::unordered_set<int> open_fds;
+  GetOpenFileDescriptors(&open_fds);
+
+  std::string test_dir;
+  ASSERT_MY_LEVELDB_OK(env_->GetTestDirectory(&test_dir));
+  std::string file_path = test_dir + "/close_on_exec_lock.txt";
+  ASSERT_MY_LEVELDB_OK(WriteStringToFile(env_, "0123456789", file_path));
+
+  my_leveldb::FileLock *lock = nullptr;
+  ASSERT_MY_LEVELDB_OK(env_->LockFile(file_path, &lock));
+  CheckCloseOnExecDoesNotLeakFDs(open_fds);
+  delete lock;
+
+}
+
+TEST_F(EnvPosixTest, TestCloseOnExecLogger) {
+  std::unordered_set<int> open_fds;
+  GetOpenFileDescriptors(&open_fds);
+
+  std::string test_dir;
+  ASSERT_MY_LEVELDB_OK(env_->GetTestDirectory(&test_dir));
+  std::string file_path = test_dir + "/close_on_exec_logger.txt";
+  ASSERT_MY_LEVELDB_OK(WriteStringToFile(env_, "0123456789", file_path));
+
+  my_leveldb::Logger *file = nullptr;
+  ASSERT_MY_LEVELDB_OK(env_->NewLogger(file_path, &file));
+  CheckCloseOnExecDoesNotLeakFDs(open_fds);
+  delete file;
+
+}
+#endif // #if HAVE_O_CLOEXEC
+} // namespace my_leveldb
+
+int main(int argc, char **argv) {
+#if HAVE_O_CLOEXEC
+  // Check if we're invoked as a helper program, or as the test suite.
+  for (int i = 1; i < argc; ++i) {
+    if (!std::strcmp(argv[i], kTestCloseOnExecSwitch)) {
+      return TestCloseOnExecHelperMain(argv[i + 1]);
+    }
+  }
+
+  // Save argv[0] early, because googletest may modify argv.
+  GetArgvZero()->assign(argv[0], argv[0] + std::strlen(argv[0]) + 1);
+#endif // HAVE_O_CLOEXEC
+
+  // All tests currently run with the same read-only file limits.
+  my_leveldb::EnvPosixTest::SetFileLimits(my_leveldb::kReadOnlyFileLimit,
+                                              my_leveldb::kMmapLimit);
+  testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
 }

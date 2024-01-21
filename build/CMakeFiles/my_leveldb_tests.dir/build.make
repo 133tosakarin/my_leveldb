@@ -69,10 +69,24 @@ include CMakeFiles/my_leveldb_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/my_leveldb_tests.dir/flags.make
 
+CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o: CMakeFiles/my_leveldb_tests.dir/flags.make
+CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o: /root/my_leveldb/util/no_destructor_test.cc
+CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o: CMakeFiles/my_leveldb_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o -MF CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o.d -o CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o -c /root/my_leveldb/util/no_destructor_test.cc
+
+CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/util/no_destructor_test.cc > CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.i
+
+CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/no_destructor_test.cc -o CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.s
+
 CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o: CMakeFiles/my_leveldb_tests.dir/flags.make
 CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o: /root/my_leveldb/util/testutil.cc
 CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o: CMakeFiles/my_leveldb_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o -MF CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o.d -o CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o -c /root/my_leveldb/util/testutil.cc
 
 CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.s: cmake_force
 CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o: CMakeFiles/my_leveldb_tests.dir/flags.make
 CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o: /root/my_leveldb/db/skiplist_test.cc
 CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o: CMakeFiles/my_leveldb_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o -MF CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o.d -o CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o -c /root/my_leveldb/db/skiplist_test.cc
 
 CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.s: cmake_force
 CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o: CMakeFiles/my_leveldb_tests.dir/flags.make
 CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o: /root/my_leveldb/table/filter_block_test.cc
 CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o: CMakeFiles/my_leveldb_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o -MF CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o.d -o CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o -c /root/my_leveldb/table/filter_block_test.cc
 
 CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.i: cmake_force
@@ -111,34 +125,20 @@ CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/table/filter_block_test.cc -o CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.s
 
-CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o: CMakeFiles/my_leveldb_tests.dir/flags.make
-CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o: /root/my_leveldb/util/no_destructor_test.cc
-CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o: CMakeFiles/my_leveldb_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/my_leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o -MF CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o.d -o CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o -c /root/my_leveldb/util/no_destructor_test.cc
-
-CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/my_leveldb/util/no_destructor_test.cc > CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.i
-
-CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/my_leveldb/util/no_destructor_test.cc -o CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.s
-
 # Object files for target my_leveldb_tests
 my_leveldb_tests_OBJECTS = \
+"CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o" \
 "CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o" \
 "CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o" \
-"CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o" \
-"CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o"
+"CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o"
 
 # External object files for target my_leveldb_tests
 my_leveldb_tests_EXTERNAL_OBJECTS =
 
+my_leveldb_tests: CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o
 my_leveldb_tests: CMakeFiles/my_leveldb_tests.dir/util/testutil.cc.o
 my_leveldb_tests: CMakeFiles/my_leveldb_tests.dir/db/skiplist_test.cc.o
 my_leveldb_tests: CMakeFiles/my_leveldb_tests.dir/table/filter_block_test.cc.o
-my_leveldb_tests: CMakeFiles/my_leveldb_tests.dir/util/no_destructor_test.cc.o
 my_leveldb_tests: CMakeFiles/my_leveldb_tests.dir/build.make
 my_leveldb_tests: libmy_leveldb.a
 my_leveldb_tests: lib/libgmock.a

@@ -122,6 +122,7 @@ CMakeFiles/my_leveldb.dir/db/memtable.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
+ /root/my_leveldb/include/leveldb/export.h \
  /root/my_leveldb/include/leveldb/iterator.h \
  /root/my_leveldb/include/leveldb/status.h /usr/include/c++/12/algorithm \
  /usr/include/c++/12/bits/stl_algo.h \
@@ -138,5 +139,4 @@ CMakeFiles/my_leveldb.dir/db/memtable.cc.o: \
  /root/my_leveldb/include/leveldb/filter_policy.h \
  /root/my_leveldb/include/leveldb/table_builder.h \
  /root/my_leveldb/./util/logging.h /root/my_leveldb/./util/coding.h \
- /root/my_leveldb/include/leveldb/env.h \
- /root/my_leveldb/include/leveldb/export.h /usr/include/c++/12/cstdarg
+ /root/my_leveldb/include/leveldb/env.h /usr/include/c++/12/cstdarg

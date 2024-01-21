@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DMY_LEVELDB_COMPILE_LIBRARY -DMY_LEVELDB_PLATFORM_POSIX=1
 
-CXX_INCLUDES = -I/root/my_leveldb/include -I/root/my_leveldb/util -I/root/my_leveldb/build/include -I/root/my_leveldb/.
+CXX_INCLUDES = -I/root/my_leveldb/build/include -I/root/my_leveldb/. -I/root/my_leveldb/include
 
-CXX_FLAGS = -O0 -ggdb -std=c++17
+CXX_FLAGS =  -fno-rtti -O0 -ggdb -std=c++17
 

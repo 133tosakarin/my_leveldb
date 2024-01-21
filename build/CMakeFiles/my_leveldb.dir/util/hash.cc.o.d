@@ -115,4 +115,4 @@ CMakeFiles/my_leveldb.dir/util/hash.cc.o: /root/my_leveldb/util/hash.cc \
  /usr/include/c++/12/bits/basic_string.tcc \
  /root/my_leveldb/include/leveldb/slice.h /usr/include/c++/12/cassert \
  /usr/include/assert.h /usr/include/c++/12/cstddef \
- /root/my_leveldb/./util/hash.h
+ /root/my_leveldb/include/leveldb/export.h /root/my_leveldb/./util/hash.h

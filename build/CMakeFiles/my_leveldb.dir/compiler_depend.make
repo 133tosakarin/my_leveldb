@@ -151,6 +151,7 @@ CMakeFiles/my_leveldb.dir/db/dbformat.cc.o: /root/my_leveldb/db/dbformat.cc \
   /usr/include/c++/12/bits/uniform_int_dist.h \
   /usr/include/c++/12/pstl/glue_algorithm_defs.h \
   /usr/include/c++/12/pstl/execution_defs.h \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/slice.h \
   /usr/include/c++/12/cassert \
   /usr/include/assert.h \
@@ -356,6 +357,7 @@ CMakeFiles/my_leveldb.dir/db/log_reader.cc.o: /root/my_leveldb/db/log_reader.cc 
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/status.h \
   /usr/include/c++/12/algorithm \
   /usr/include/c++/12/bits/stl_algo.h \
@@ -368,7 +370,6 @@ CMakeFiles/my_leveldb.dir/db/log_reader.cc.o: /root/my_leveldb/db/log_reader.cc 
   /root/my_leveldb/util/crc32c.h \
   /root/my_leveldb/util/coding.h \
   /root/my_leveldb/include/leveldb/env.h \
-  /root/my_leveldb/include/leveldb/export.h \
   /usr/include/c++/12/vector \
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
@@ -521,6 +522,7 @@ CMakeFiles/my_leveldb.dir/db/log_writer.cc.o: /root/my_leveldb/db/log_writer.cc 
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/status.h \
   /usr/include/c++/12/algorithm \
   /usr/include/c++/12/bits/stl_algo.h \
@@ -531,7 +533,6 @@ CMakeFiles/my_leveldb.dir/db/log_writer.cc.o: /root/my_leveldb/db/log_writer.cc 
   /usr/include/c++/12/pstl/glue_algorithm_defs.h \
   /usr/include/c++/12/pstl/execution_defs.h \
   /root/my_leveldb/include/leveldb/env.h \
-  /root/my_leveldb/include/leveldb/export.h \
   /usr/include/c++/12/vector \
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
@@ -696,6 +697,7 @@ CMakeFiles/my_leveldb.dir/db/memtable.cc.o: /root/my_leveldb/db/memtable.cc \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/iterator.h \
   /root/my_leveldb/include/leveldb/status.h \
   /usr/include/c++/12/algorithm \
@@ -715,7 +717,6 @@ CMakeFiles/my_leveldb.dir/db/memtable.cc.o: /root/my_leveldb/db/memtable.cc \
   /root/my_leveldb/util/logging.h \
   /root/my_leveldb/util/coding.h \
   /root/my_leveldb/include/leveldb/env.h \
-  /root/my_leveldb/include/leveldb/export.h \
   /usr/include/c++/12/cstdarg
 
 CMakeFiles/my_leveldb.dir/helper/memenv/memenv.cc.o: /root/my_leveldb/helper/memenv/memenv.cc \
@@ -1077,6 +1078,7 @@ CMakeFiles/my_leveldb.dir/table/block.cc.o: /root/my_leveldb/table/block.cc \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/status.h \
   /usr/include/c++/12/algorithm \
   /usr/include/c++/12/bits/stl_algo.h \
@@ -1251,6 +1253,7 @@ CMakeFiles/my_leveldb.dir/table/block_builder.cc.o: /root/my_leveldb/table/block
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/slice.h \
   /usr/include/c++/12/cstddef \
   /usr/include/c++/12/cstring \
@@ -1409,6 +1412,7 @@ CMakeFiles/my_leveldb.dir/table/filter_block.cc.o: /root/my_leveldb/table/filter
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/util/hash.h \
   /root/my_leveldb/include/leveldb/status.h \
   /usr/include/c++/12/algorithm \
@@ -1566,6 +1570,7 @@ CMakeFiles/my_leveldb.dir/table/format.cc.o: /root/my_leveldb/table/format.cc \
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/status.h \
   /usr/include/c++/12/algorithm \
   /usr/include/c++/12/bits/stl_algo.h \
@@ -1578,7 +1583,6 @@ CMakeFiles/my_leveldb.dir/table/format.cc.o: /root/my_leveldb/table/format.cc \
   /root/my_leveldb/include/leveldb/table_builder.h \
   /root/my_leveldb/include/leveldb/options.h \
   /root/my_leveldb/include/leveldb/env.h \
-  /root/my_leveldb/include/leveldb/export.h \
   /usr/include/c++/12/vector \
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
@@ -2043,6 +2047,7 @@ CMakeFiles/my_leveldb.dir/util/bloom.cc.o: /root/my_leveldb/util/bloom.cc \
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/util/hash.h
 
 CMakeFiles/my_leveldb.dir/util/cache.cc.o: /root/my_leveldb/util/cache.cc \
@@ -2226,6 +2231,7 @@ CMakeFiles/my_leveldb.dir/util/cache.cc.o: /root/my_leveldb/util/cache.cc \
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/status.h \
   /usr/include/c++/12/algorithm \
   /usr/include/c++/12/bits/stl_algo.h \
@@ -2379,7 +2385,8 @@ CMakeFiles/my_leveldb.dir/util/coding.cc.o: /root/my_leveldb/util/coding.cc \
   /root/my_leveldb/include/leveldb/slice.h \
   /usr/include/c++/12/cassert \
   /usr/include/assert.h \
-  /usr/include/c++/12/cstddef
+  /usr/include/c++/12/cstddef \
+  /root/my_leveldb/include/leveldb/export.h
 
 CMakeFiles/my_leveldb.dir/util/comparator.cc.o: /root/my_leveldb/util/comparator.cc \
   /usr/include/stdc-predef.h \
@@ -2525,6 +2532,7 @@ CMakeFiles/my_leveldb.dir/util/comparator.cc.o: /root/my_leveldb/util/comparator
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/util/logging.h \
   /root/my_leveldb/util/no_destructor.h \
   /usr/include/c++/12/utility \
@@ -2682,7 +2690,8 @@ CMakeFiles/my_leveldb.dir/util/crc32c.cc.o: /root/my_leveldb/util/crc32c.cc \
   /usr/include/c++/12/bits/basic_string.tcc \
   /root/my_leveldb/include/leveldb/slice.h \
   /usr/include/c++/12/cassert \
-  /usr/include/assert.h
+  /usr/include/assert.h \
+  /root/my_leveldb/include/leveldb/export.h
 
 CMakeFiles/my_leveldb.dir/util/env.cc.o: /root/my_leveldb/util/env.cc \
   /usr/include/stdc-predef.h \
@@ -2830,6 +2839,7 @@ CMakeFiles/my_leveldb.dir/util/env.cc.o: /root/my_leveldb/util/env.cc \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/slice.h \
   /usr/include/c++/12/cassert \
   /usr/include/assert.h \
@@ -2837,13 +2847,308 @@ CMakeFiles/my_leveldb.dir/util/env.cc.o: /root/my_leveldb/util/env.cc \
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /root/my_leveldb/include/leveldb/export.h \
   /usr/include/c++/12/vector \
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
   /usr/include/c++/12/bits/vector.tcc \
   /usr/include/c++/12/cstdarg
+
+CMakeFiles/my_leveldb.dir/util/env_posix.cc.o: /root/my_leveldb/util/env_posix.cc \
+  /usr/include/stdc-predef.h \
+  /usr/include/unistd.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+  /usr/include/c++/12/atomic \
+  /usr/include/c++/12/bits/atomic_base.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
+  /usr/include/c++/12/pstl/pstl_config.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/12/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12/bits/move.h \
+  /usr/include/c++/12/type_traits \
+  /usr/include/x86_64-linux-gnu/sys/mman.h \
+  /usr/include/x86_64-linux-gnu/bits/mman.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-shared.h \
+  /usr/include/x86_64-linux-gnu/bits/mman_ext.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
+  /usr/include/x86_64-linux-gnu/sys/resource.h \
+  /usr/include/x86_64-linux-gnu/bits/resource.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_rusage.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/statx.h \
+  /usr/include/linux/stat.h \
+  /usr/include/linux/types.h \
+  /usr/include/x86_64-linux-gnu/asm/types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/c++/12/mutex \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/stl_pair.h \
+  /usr/include/c++/12/bits/utility.h \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/invoke.h \
+  /usr/include/c++/12/exception \
+  /usr/include/c++/12/bits/exception.h \
+  /usr/include/c++/12/bits/exception_ptr.h \
+  /usr/include/c++/12/bits/exception_defines.h \
+  /usr/include/c++/12/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12/typeinfo \
+  /usr/include/c++/12/bits/hash_bytes.h \
+  /usr/include/c++/12/new \
+  /usr/include/c++/12/bits/nested_exception.h \
+  /usr/include/c++/12/system_error \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h \
+  /usr/include/c++/12/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/12/iosfwd \
+  /usr/include/c++/12/bits/stringfwd.h \
+  /usr/include/c++/12/bits/memoryfwd.h \
+  /usr/include/c++/12/bits/postypes.h \
+  /usr/include/c++/12/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/c++/12/stdexcept \
+  /usr/include/c++/12/string \
+  /usr/include/c++/12/bits/char_traits.h \
+  /usr/include/c++/12/cstdint \
+  /usr/include/c++/12/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
+  /usr/include/c++/12/bits/new_allocator.h \
+  /usr/include/c++/12/bits/functexcept.h \
+  /usr/include/c++/12/bits/cpp_type_traits.h \
+  /usr/include/c++/12/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
+  /usr/include/c++/12/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/12/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/12/bits/ostream_insert.h \
+  /usr/include/c++/12/bits/cxxabi_forced.h \
+  /usr/include/c++/12/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12/bits/concept_check.h \
+  /usr/include/c++/12/debug/assertions.h \
+  /usr/include/c++/12/bits/stl_iterator.h \
+  /usr/include/c++/12/ext/type_traits.h \
+  /usr/include/c++/12/bits/ptr_traits.h \
+  /usr/include/c++/12/bits/stl_function.h \
+  /usr/include/c++/12/backward/binders.h \
+  /usr/include/c++/12/ext/numeric_traits.h \
+  /usr/include/c++/12/bits/stl_algobase.h \
+  /usr/include/c++/12/debug/debug.h \
+  /usr/include/c++/12/bits/predefined_ops.h \
+  /usr/include/c++/12/bits/refwrap.h \
+  /usr/include/c++/12/bits/range_access.h \
+  /usr/include/c++/12/initializer_list \
+  /usr/include/c++/12/bits/basic_string.h \
+  /usr/include/c++/12/ext/alloc_traits.h \
+  /usr/include/c++/12/bits/alloc_traits.h \
+  /usr/include/c++/12/bits/stl_construct.h \
+  /usr/include/c++/12/string_view \
+  /usr/include/c++/12/bits/functional_hash.h \
+  /usr/include/c++/12/bits/string_view.tcc \
+  /usr/include/c++/12/ext/string_conversions.h \
+  /usr/include/c++/12/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/12/bits/std_abs.h \
+  /usr/include/c++/12/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/12/bits/charconv.h \
+  /usr/include/c++/12/bits/basic_string.tcc \
+  /usr/include/c++/12/bits/chrono.h \
+  /usr/include/c++/12/ratio \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/ctime \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/c++/12/bits/parse_numbers.h \
+  /usr/include/c++/12/bits/std_mutex.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/c++/12/bits/unique_lock.h \
+  /usr/include/c++/12/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/12/set \
+  /usr/include/c++/12/bits/stl_tree.h \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/bits/node_handle.h \
+  /usr/include/c++/12/bits/stl_set.h \
+  /usr/include/c++/12/bits/stl_multiset.h \
+  /usr/include/c++/12/bits/erase_if.h \
+  /usr/include/c++/12/condition_variable \
+  /usr/include/c++/12/bits/shared_ptr.h \
+  /usr/include/c++/12/bits/shared_ptr_base.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/unique_ptr.h \
+  /usr/include/c++/12/ext/concurrence.h \
+  /usr/include/c++/12/queue \
+  /usr/include/c++/12/deque \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_deque.h \
+  /usr/include/c++/12/bits/deque.tcc \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/bits/stl_heap.h \
+  /usr/include/c++/12/bits/stl_queue.h \
+  /usr/include/c++/12/thread \
+  /usr/include/c++/12/bits/std_thread.h \
+  /usr/include/c++/12/bits/this_thread_sleep.h \
+  /root/my_leveldb/include/leveldb/env.h \
+  /root/my_leveldb/include/leveldb/status.h \
+  /usr/include/c++/12/algorithm \
+  /usr/include/c++/12/bits/stl_algo.h \
+  /usr/include/c++/12/bits/algorithmfwd.h \
+  /usr/include/c++/12/bits/stl_tempbuf.h \
+  /usr/include/c++/12/bits/uniform_int_dist.h \
+  /usr/include/c++/12/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/12/pstl/execution_defs.h \
+  /root/my_leveldb/include/leveldb/export.h \
+  /root/my_leveldb/include/leveldb/slice.h \
+  /usr/include/c++/12/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/12/cstddef \
+  /usr/include/c++/12/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/12/cstdarg \
+  /root/my_leveldb/util/posix_logger.h \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/c++/12/sstream \
+  /usr/include/c++/12/istream \
+  /usr/include/c++/12/ios \
+  /usr/include/c++/12/bits/ios_base.h \
+  /usr/include/c++/12/bits/locale_classes.h \
+  /usr/include/c++/12/bits/locale_classes.tcc \
+  /usr/include/c++/12/streambuf \
+  /usr/include/c++/12/bits/streambuf.tcc \
+  /usr/include/c++/12/bits/basic_ios.h \
+  /usr/include/c++/12/bits/locale_facets.h \
+  /usr/include/c++/12/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h \
+  /usr/include/c++/12/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h \
+  /usr/include/c++/12/bits/locale_facets.tcc \
+  /usr/include/c++/12/bits/basic_ios.tcc \
+  /usr/include/c++/12/ostream \
+  /usr/include/c++/12/bits/ostream.tcc \
+  /usr/include/c++/12/bits/istream.tcc \
+  /usr/include/c++/12/bits/sstream.tcc \
+  /root/my_leveldb/util/env_posix_test_helper.h \
+  /root/my_leveldb/port/port.h \
+  /root/my_leveldb/port/port_stdcxx.h \
+  include/port/port_config.h
 
 CMakeFiles/my_leveldb.dir/util/filter_policy.cc.o: /root/my_leveldb/util/filter_policy.cc \
   /usr/include/stdc-predef.h \
@@ -3127,6 +3432,7 @@ CMakeFiles/my_leveldb.dir/util/hash.cc.o: /root/my_leveldb/util/hash.cc \
   /usr/include/c++/12/cassert \
   /usr/include/assert.h \
   /usr/include/c++/12/cstddef \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/util/hash.h
 
 CMakeFiles/my_leveldb.dir/util/logging.cc.o: /root/my_leveldb/util/logging.cc \
@@ -3276,6 +3582,7 @@ CMakeFiles/my_leveldb.dir/util/logging.cc.o: /root/my_leveldb/util/logging.cc \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/slice.h \
   /usr/include/c++/12/cassert \
   /usr/include/assert.h \
@@ -3283,7 +3590,6 @@ CMakeFiles/my_leveldb.dir/util/logging.cc.o: /root/my_leveldb/util/logging.cc \
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /root/my_leveldb/include/leveldb/export.h \
   /usr/include/c++/12/vector \
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
@@ -3440,13 +3746,13 @@ CMakeFiles/my_leveldb.dir/util/options.cc.o: /root/my_leveldb/util/options.cc \
   /usr/include/c++/12/bits/uniform_int_dist.h \
   /usr/include/c++/12/pstl/glue_algorithm_defs.h \
   /usr/include/c++/12/pstl/execution_defs.h \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/slice.h \
   /usr/include/c++/12/cassert \
   /usr/include/assert.h \
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /root/my_leveldb/include/leveldb/export.h \
   /usr/include/c++/12/vector \
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
@@ -3599,6 +3905,7 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /root/my_leveldb/include/leveldb/export.h \
   /root/my_leveldb/include/leveldb/slice.h \
   /usr/include/c++/12/cassert \
   /usr/include/assert.h \
@@ -3660,6 +3967,32 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 
 /root/my_leveldb/util/filter_policy.cc:
 
+/root/my_leveldb/util/env_posix_test_helper.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/root/my_leveldb/util/posix_logger.h:
+
+/usr/include/c++/12/queue:
+
+/usr/include/c++/12/bits/stl_multiset.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman_ext.h:
+
+/usr/include/c++/12/bits/deque.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/mman-shared.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman-linux.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman.h:
+
+/usr/include/x86_64-linux-gnu/sys/mman.h:
+
 /root/my_leveldb/util/crc32c.cc:
 
 /root/my_leveldb/util/coding.cc:
@@ -3677,6 +4010,8 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 /usr/local/include/spdlog/formatter.h:
 
 /usr/local/include/spdlog/logger-inl.h:
+
+/usr/include/x86_64-linux-gnu/sys/resource.h:
 
 /usr/local/include/spdlog/details/backtracer-inl.h:
 
@@ -3756,6 +4091,8 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 
 /usr/include/linux/limits.h:
 
+/usr/include/c++/12/bits/stl_queue.h:
+
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h:
@@ -3810,6 +4147,8 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 
 /usr/include/c++/12/array:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_rusage.h:
+
 /usr/include/c++/12/bits/unordered_map.h:
 
 /usr/include/c++/12/bits/enable_special_members.h:
@@ -3824,7 +4163,11 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 
 /usr/include/c++/12/bits/std_function.h:
 
+/usr/include/dirent.h:
+
 /usr/include/c++/12/pstl/glue_memory_defs.h:
+
+/root/my_leveldb/util/env_posix.cc:
 
 /usr/include/c++/12/backward/auto_ptr.h:
 
@@ -3905,6 +4248,8 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 /root/my_leveldb/include/leveldb/export.h:
 
 /usr/include/c++/12/bits/range_access.h:
+
+/usr/include/c++/12/bits/stl_set.h:
 
 /usr/local/include/spdlog/pattern_formatter.h:
 
@@ -4001,6 +4346,8 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/12/bits/move.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
@@ -4104,6 +4451,8 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 
 /usr/include/c++/12/algorithm:
 
+/usr/include/c++/12/deque:
+
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/asm-generic/types.h:
@@ -4157,6 +4506,8 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/c++/12/bits/postypes.h:
+
+/usr/include/c++/12/bits/stl_deque.h:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
@@ -4290,6 +4641,8 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 
 /usr/include/c++/12/pstl/execution_defs.h:
 
+/usr/include/x86_64-linux-gnu/bits/resource.h:
+
 /root/my_leveldb/helper/memenv/memenv.h:
 
 /root/my_leveldb/include/leveldb/slice.h:
@@ -4341,6 +4694,8 @@ CMakeFiles/my_leveldb.dir/util/status.cc.o: /root/my_leveldb/util/status.cc \
 /usr/include/c++/12/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/12/typeinfo:
+
+/usr/include/c++/12/set:
 
 /usr/include/c++/12/bits/ios_base.h:
 
